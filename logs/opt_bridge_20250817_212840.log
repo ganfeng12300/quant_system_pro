@@ -1,0 +1,949 @@
+[A6-SHIM] pandas.DataFrame.to_csv Ѱװ޶ӣ a6_strategy_scores*
+[SKIP] 1000000BOBUSDT_1h ݲ
+[SKIP] 1000000BOBUSDT_4h ݲ
+[BEST] 1000000MOGUSDT 1h A1_ma_cross {'fast': 30, 'slow': 50} ret=25.39% trades=3 score=0.2494 dd=-0.00
+[BEST] 1000000MOGUSDT 4h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=209.87% trades=34 score=2.0861 dd=-0.00
+[BEST] 1000BONKUSDT 1h A1_ma_cross {'fast': 35, 'slow': 60} ret=189.26% trades=40 score=1.8888 dd=-0.00
+[BEST] 1000BONKUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=192.85% trades=5 score=1.9267 dd=-0.00
+[BEST] 1000CATUSDT 1h A3_rsi {'n': 22, 'low': 30, 'high': 70} ret=66.23% trades=20 score=0.6572 dd=-0.00
+[BEST] 1000CATUSDT 4h A7_donchian {'n': 20} ret=190.33% trades=30 score=1.8922 dd=-0.00
+[SKIP] 1000CHEEMSUSDT_1h ݲ
+[BEST] 1000CHEEMSUSDT 4h A1_ma_cross {'fast': 20, 'slow': 30} ret=88.12% trades=20 score=0.8736 dd=-0.00
+[BEST] 1000FLOKIUSDT 1h A1_ma_cross {'fast': 10, 'slow': 140} ret=128.54% trades=24 score=1.2831 dd=-0.00
+[BEST] 1000FLOKIUSDT 4h A1_ma_cross {'fast': 40, 'slow': 100} ret=164.49% trades=6 score=1.6425 dd=-0.00
+[BEST] 1000LUNCUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=34.64% trades=254 score=0.3229 dd=-0.00
+[BEST] 1000LUNCUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=14.12% trades=13 score=0.1364 dd=-0.00
+[BEST] 1000PEPEUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=112.87% trades=208 score=1.1095 dd=-0.00
+[BEST] 1000PEPEUSDT 4h A1_ma_cross {'fast': 40, 'slow': 150} ret=70.18% trades=3 score=0.7006 dd=-0.00
+[BEST] 1000RATSUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=26.33% trades=157 score=0.2488 dd=-0.00
+[BEST] 1000RATSUSDT 4h A5_reversal {'look': 30, 'z': 1} ret=33.28% trades=110 score=0.2921 dd=-0.00
+[BEST] 1000SATSUSDT 1h A1_ma_cross {'fast': 5, 'slow': 90} ret=42.91% trades=46 score=0.4248 dd=-0.00
+[BEST] 1000SATSUSDT 4h A2_bbands {'n': 20, 'k': 2} ret=10.79% trades=30 score=0.0968 dd=-0.00
+[BEST] 1000SHIBUSDT 1h A1_ma_cross {'fast': 5, 'slow': 190} ret=21.70% trades=23 score=0.2148 dd=-0.00
+[BEST] 1000SHIBUSDT 4h A1_ma_cross {'fast': 35, 'slow': 100} ret=21.08% trades=4 score=0.2091 dd=-0.00
+[SKIP] 1000WHYUSDT_1h ݲ
+[BEST] 1000WHYUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=62.75% trades=57 score=0.6064 dd=-0.00
+[BEST] 1000XECUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=52.86% trades=74 score=0.5217 dd=-0.00
+[BEST] 1000XECUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=38.25% trades=45 score=0.3657 dd=-0.00
+[SKIP] 1000XUSDT_1h ݲ
+[BEST] 1000XUSDT 4h A2_bbands {'n': 50, 'k': 1.5} ret=277.20% trades=17 score=2.7657 dd=-0.00
+[BEST] 1INCHUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=69.32% trades=156 score=0.6787 dd=-0.00
+[BEST] 1INCHUSDT 4h A2_bbands {'n': 60, 'k': 2} ret=57.98% trades=16 score=0.5738 dd=-0.00
+[BEST] 1MBABYDOGEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 180} ret=56.31% trades=17 score=0.5615 dd=-0.00
+[BEST] 1MBABYDOGEUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=40.97% trades=4 score=0.4080 dd=-0.00
+[BEST] A2ZUSDT 1h A2_bbands {'n': 10, 'k': 1.5} ret=85.16% trades=15 score=0.8321 dd=-0.00
+[SKIP] A2ZUSDT_4h ݲ
+[BEST] AAVEUSDT 1h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=67.05% trades=223 score=0.6499 dd=-0.00
+[BEST] AAVEUSDT 4h A1_ma_cross {'fast': 25, 'slow': 60} ret=84.20% trades=7 score=0.8392 dd=-0.00
+[BEST] ACEUSDT 1h A3_rsi {'n': 28, 'low': 30, 'high': 70} ret=40.14% trades=42 score=0.3975 dd=-0.00
+[BEST] ACEUSDT 4h A4_atr_break {'n': 10, 'm': 1} ret=50.85% trades=60 score=0.4863 dd=-0.00
+[BEST] ACHUSDT 1h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=40.88% trades=70 score=0.4023 dd=-0.00
+[BEST] ACHUSDT 4h A2_bbands {'n': 20, 'k': 2.5} ret=29.51% trades=12 score=0.2907 dd=-0.00
+[BEST] ACTUSDT 1h A5_reversal {'look': 30, 'z': 1} ret=9.98% trades=26 score=0.0653 dd=-0.00
+[BEST] ACTUSDT 4h A5_reversal {'look': 15, 'z': 0.5} ret=54.47% trades=209 score=0.4671 dd=-0.00
+[BEST] ACXUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=30.76% trades=66 score=0.2905 dd=-0.00
+[BEST] ACXUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=41.16% trades=11 score=0.4075 dd=-0.00
+[BEST] ADAUSDT 1h A1_ma_cross {'fast': 35, 'slow': 60} ret=72.50% trades=37 score=0.7215 dd=-0.00
+[BEST] ADAUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=58.00% trades=42 score=0.5645 dd=-0.00
+[BEST] AERGOUSDT 1h A5_reversal {'look': 20, 'z': 1} ret=539.94% trades=181 score=5.3533 dd=-0.00
+[BEST] AERGOUSDT 4h A2_bbands {'n': 50, 'k': 1.5} ret=191.02% trades=23 score=1.9017 dd=-0.00
+[BEST] AEROUSDT 1h A1_ma_cross {'fast': 5, 'slow': 100} ret=206.06% trades=10 score=2.0580 dd=-0.00
+[BEST] AEROUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=123.93% trades=41 score=1.2240 dd=-0.00
+[BEST] AEVOUSDT 1h A7_donchian {'n': 25} ret=47.03% trades=140 score=0.4573 dd=-0.00
+[BEST] AEVOUSDT 4h A2_bbands {'n': 60, 'k': 3} ret=28.31% trades=2 score=0.2824 dd=-0.00
+[BEST] AGLDUSDT 1h A4_atr_break {'n': 25, 'm': 2.5} ret=8.15% trades=9 score=0.0807 dd=-0.00
+[BEST] AGLDUSDT 4h A1_ma_cross {'fast': 25, 'slow': 100} ret=23.44% trades=3 score=0.2331 dd=-0.00
+[BEST] AGTUSDT 1h A5_reversal {'look': 5, 'z': 1} ret=44.88% trades=42 score=0.3942 dd=-0.00
+[BEST] AGTUSDT 4h A7_donchian {'n': 15} ret=56.89% trades=5 score=0.5609 dd=-0.00
+[BEST] AI16ZUSDT 1h A5_reversal {'look': 30, 'z': 0.5} ret=13.28% trades=63 score=0.0509 dd=-0.00
+[BEST] AI16ZUSDT 4h A1_ma_cross {'fast': 35, 'slow': 140} ret=76.65% trades=3 score=0.7654 dd=-0.00
+[BEST] AINUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=49.14% trades=2 score=0.4888 dd=-0.00
+[BEST] AINUSDT 4h A5_reversal {'look': 15, 'z': 0.5} ret=151.73% trades=52 score=1.4373 dd=-0.00
+[SKIP] AIOTUSDT_1h ݲ
+[SKIP] AIOTUSDT_4h ݲ
+[BEST] AIOUSDT 1h A5_reversal {'look': 25, 'z': 0.5} ret=85.88% trades=51 score=0.7926 dd=-0.00
+[SKIP] AIOUSDT_4h ݲ
+[BEST] AIUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=33.06% trades=75 score=0.3237 dd=-0.00
+[BEST] AIUSDT 4h A3_rsi {'n': 22, 'low': 30, 'high': 70} ret=44.28% trades=11 score=0.4387 dd=-0.00
+[BEST] AIXBTUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=10.75% trades=11 score=0.0932 dd=-0.00
+[BEST] AIXBTUSDT 4h A1_ma_cross {'fast': 30, 'slow': 190} ret=73.75% trades=2 score=0.7368 dd=-0.00
+[BEST] AKTUSDT 1h A1_ma_cross {'fast': 20, 'slow': 40} ret=63.03% trades=19 score=0.6253 dd=-0.00
+[BEST] AKTUSDT 4h A1_ma_cross {'fast': 35, 'slow': 100} ret=56.75% trades=4 score=0.5658 dd=-0.00
+[BEST] ALCHUSDT 1h A5_reversal {'look': 25, 'z': 2} ret=5.21% trades=8 score=0.0417 dd=-0.00
+[BEST] ALCHUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=379.43% trades=239 score=3.7058 dd=-0.00
+[BEST] ALGOUSDT 1h A1_ma_cross {'fast': 10, 'slow': 140} ret=45.15% trades=21 score=0.4496 dd=-0.00
+[BEST] ALGOUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=65.88% trades=43 score=0.6427 dd=-0.00
+[BEST] ALICEUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=120.97% trades=151 score=1.1957 dd=-0.00
+[BEST] ALICEUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=7.79% trades=18 score=0.0712 dd=-0.00
+[SKIP] ALLUSDT_1h ݲ
+[SKIP] ALLUSDT_4h ݲ
+[BEST] ALPHAUSDT 1h A2_bbands {'n': 50, 'k': 2} ret=60.85% trades=62 score=0.6027 dd=-0.00
+[BEST] ALPHAUSDT 4h A4_atr_break {'n': 25, 'm': 1} ret=10.13% trades=40 score=0.0865 dd=-0.00
+[BEST] ALPINEUSDT 1h A1_ma_cross {'fast': 40, 'slow': 150} ret=72.64% trades=5 score=0.7250 dd=-0.00
+[BEST] ALPINEUSDT 4h A1_ma_cross {'fast': 35, 'slow': 40} ret=88.06% trades=25 score=0.8712 dd=-0.00
+[BEST] ALTUSDT 1h A2_bbands {'n': 60, 'k': 2} ret=95.93% trades=68 score=0.9530 dd=-0.00
+[BEST] ALTUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=117.77% trades=16 score=1.1718 dd=-0.00
+[BEST] ANIMEUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=9.94% trades=4 score=0.0942 dd=-0.00
+[BEST] ANIMEUSDT 4h A1_ma_cross {'fast': 5, 'slow': 70} ret=38.12% trades=10 score=0.3773 dd=-0.00
+[BEST] ANKRUSDT 1h A4_atr_break {'n': 22, 'm': 2} ret=49.19% trades=22 score=0.4899 dd=-0.00
+[BEST] ANKRUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=24.04% trades=4 score=0.2386 dd=-0.00
+[BEST] APEUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=38.80% trades=72 score=0.3812 dd=-0.00
+[BEST] APEUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=30.61% trades=18 score=0.2994 dd=-0.00
+[BEST] API3USDT 1h A2_bbands {'n': 10, 'k': 1.5} ret=90.18% trades=270 score=0.8768 dd=-0.00
+[BEST] API3USDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=104.72% trades=22 score=1.0390 dd=-0.00
+[BEST] APTUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=59.23% trades=165 score=0.5770 dd=-0.00
+[BEST] APTUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=37.63% trades=40 score=0.3613 dd=-0.00
+[BEST] ARBUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=128.70% trades=75 score=1.2800 dd=-0.00
+[BEST] ARBUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=170.01% trades=41 score=1.6847 dd=-0.00
+[BEST] ARCUSDT 1h A5_reversal {'look': 30, 'z': 0.5} ret=28.64% trades=56 score=0.2130 dd=-0.00
+[BEST] ARCUSDT 4h A4_atr_break {'n': 13, 'm': 1} ret=47.97% trades=48 score=0.4620 dd=-0.00
+[BEST] ARKMUSDT 1h A1_ma_cross {'fast': 10, 'slow': 150} ret=41.88% trades=26 score=0.4164 dd=-0.00
+[BEST] ARKMUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=46.77% trades=49 score=0.4492 dd=-0.00
+[BEST] ARKUSDT 1h A5_reversal {'look': 30, 'z': 2} ret=40.02% trades=116 score=0.3895 dd=-0.00
+[BEST] ARKUSDT 4h A1_ma_cross {'fast': 35, 'slow': 60} ret=59.84% trades=9 score=0.5951 dd=-0.00
+[BEST] ARPAUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=39.54% trades=254 score=0.3719 dd=-0.00
+[BEST] ARPAUSDT 4h A1_ma_cross {'fast': 35, 'slow': 70} ret=26.63% trades=7 score=0.2635 dd=-0.00
+[BEST] ARUSDT 1h A1_ma_cross {'fast': 5, 'slow': 190} ret=43.79% trades=27 score=0.4354 dd=-0.00
+[BEST] ARUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=70.04% trades=4 score=0.6988 dd=-0.00
+[BEST] ASRUSDT 1h A1_ma_cross {'fast': 5, 'slow': 200} ret=385.17% trades=11 score=3.8489 dd=-0.00
+[BEST] ASRUSDT 4h A1_ma_cross {'fast': 5, 'slow': 110} ret=291.60% trades=8 score=2.9131 dd=-0.00
+[BEST] ASTRUSDT 1h A1_ma_cross {'fast': 25, 'slow': 180} ret=18.53% trades=15 score=0.1839 dd=-0.00
+[BEST] ASTRUSDT 4h A2_bbands {'n': 30, 'k': 2.5} ret=17.71% trades=8 score=0.1742 dd=-0.00
+[BEST] ATAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 160} ret=36.71% trades=17 score=0.3655 dd=-0.00
+[BEST] ATAUSDT 4h A1_ma_cross {'fast': 35, 'slow': 50} ret=40.18% trades=9 score=0.3985 dd=-0.00
+[BEST] ATHUSDT 1h A8_vol_break {'n': 10, 'k': 2} ret=16.80% trades=56 score=0.1537 dd=-0.00
+[BEST] ATHUSDT 4h A1_ma_cross {'fast': 40, 'slow': 150} ret=73.75% trades=4 score=0.7359 dd=-0.00
+[BEST] ATOMUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=34.17% trades=172 score=0.3258 dd=-0.00
+[BEST] ATOMUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=57.35% trades=41 score=0.5581 dd=-0.00
+[BEST] AUCTIONUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=149.43% trades=67 score=1.4881 dd=-0.00
+[BEST] AUCTIONUSDT 4h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=150.75% trades=39 score=1.4929 dd=-0.00
+[BEST] AUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=6.22% trades=6 score=0.0537 dd=-0.00
+[BEST] AUSDT 4h A1_ma_cross {'fast': 5, 'slow': 40} ret=19.64% trades=2 score=0.1937 dd=-0.00
+[BEST] AVAAIUSDT 1h A1_ma_cross {'fast': 25, 'slow': 50} ret=56.87% trades=1 score=0.5667 dd=-0.00
+[BEST] AVAAIUSDT 4h A1_ma_cross {'fast': 35, 'slow': 70} ret=192.00% trades=7 score=1.9172 dd=-0.00
+[BEST] AVAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=6.78% trades=3 score=0.0632 dd=-0.00
+[BEST] AVAUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=26.98% trades=36 score=0.2563 dd=-0.00
+[BEST] AVAXUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=79.94% trades=167 score=0.7839 dd=-0.00
+[BEST] AVAXUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=70.40% trades=41 score=0.6886 dd=-0.00
+[BEST] AWEUSDT 1h A1_ma_cross {'fast': 20, 'slow': 40} ret=8.50% trades=3 score=0.0811 dd=-0.00
+[BEST] AWEUSDT 4h A4_atr_break {'n': 22, 'm': 1} ret=19.60% trades=13 score=0.1788 dd=-0.00
+[BEST] AXLUSDT 1h A5_reversal {'look': 10, 'z': 1.5} ret=26.10% trades=258 score=0.2371 dd=-0.00
+[BEST] AXLUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=72.72% trades=247 score=0.6357 dd=-0.00
+[BEST] AXSUSDT 1h A1_ma_cross {'fast': 5, 'slow': 200} ret=14.29% trades=20 score=0.1410 dd=-0.00
+[BEST] AXSUSDT 4h A2_bbands {'n': 30, 'k': 2.5} ret=15.31% trades=11 score=0.1490 dd=-0.00
+[BEST] B2USDT 1h A5_reversal {'look': 10, 'z': 1.5} ret=7.56% trades=21 score=0.0485 dd=-0.00
+[BEST] B2USDT 4h A5_reversal {'look': 20, 'z': 0.5} ret=9.68% trades=52 score=0.0279 dd=-0.00
+[BEST] B3USDT 1h A5_reversal {'look': 15, 'z': 1.5} ret=8.62% trades=13 score=0.0694 dd=-0.00
+[BEST] B3USDT 4h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=26.86% trades=16 score=0.2474 dd=-0.00
+[BEST] BABYUSDT 1h A2_bbands {'n': 30, 'k': 3} ret=1.16% trades=1 score=0.0103 dd=-0.00
+[BEST] BABYUSDT 4h A1_ma_cross {'fast': 25, 'slow': 40} ret=26.62% trades=6 score=0.2582 dd=-0.00
+[BEST] BAKEUSDT 1h A5_reversal {'look': 25, 'z': 1.5} ret=32.75% trades=248 score=0.3045 dd=-0.00
+[BEST] BAKEUSDT 4h A8_vol_break {'n': 60, 'k': 2} ret=18.90% trades=23 score=0.1805 dd=-0.00
+[BEST] BANANAS31USDT 1h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=10.78% trades=13 score=0.0910 dd=-0.00
+[BEST] BANANAS31USDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=60.08% trades=4 score=0.5955 dd=-0.00
+[BEST] BANANAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=156.81% trades=58 score=1.5626 dd=-0.00
+[BEST] BANANAUSDT 4h A1_ma_cross {'fast': 30, 'slow': 40} ret=107.66% trades=14 score=1.0714 dd=-0.00
+[BEST] BANDUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=66.15% trades=196 score=0.6434 dd=-0.00
+[BEST] BANDUSDT 4h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=54.07% trades=58 score=0.5191 dd=-0.00
+[BEST] BANKUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=33.36% trades=8 score=0.3232 dd=-0.00
+[BEST] BANKUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=13.49% trades=1 score=0.1329 dd=-0.00
+[BEST] BANUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=27.47% trades=11 score=0.2605 dd=-0.00
+[BEST] BANUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=205.09% trades=256 score=1.9560 dd=-0.00
+[BEST] BATUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=47.36% trades=183 score=0.4566 dd=-0.00
+[BEST] BATUSDT 4h A1_ma_cross {'fast': 40, 'slow': 190} ret=24.72% trades=3 score=0.2461 dd=-0.00
+[BEST] BBUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=148.00% trades=72 score=1.4733 dd=-0.00
+[BEST] BBUSDT 4h A1_ma_cross {'fast': 5, 'slow': 110} ret=45.16% trades=5 score=0.4496 dd=-0.00
+[BEST] BCHUSDT 1h A1_ma_cross {'fast': 40, 'slow': 160} ret=67.12% trades=16 score=0.6697 dd=-0.00
+[BEST] BCHUSDT 4h A1_ma_cross {'fast': 10, 'slow': 40} ret=51.71% trades=18 score=0.5104 dd=-0.00
+[BEST] BDXNUSDT 1h A5_reversal {'look': 15, 'z': 0.5} ret=21.33% trades=65 score=0.1292 dd=-0.00
+[BEST] BDXNUSDT 4h A5_reversal {'look': 5, 'z': 1} ret=58.78% trades=44 score=0.5296 dd=-0.00
+[BEST] BEAMXUSDT 1h A1_ma_cross {'fast': 5, 'slow': 170} ret=101.94% trades=23 score=1.0172 dd=-0.00
+[BEST] BEAMXUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=93.89% trades=6 score=0.9365 dd=-0.00
+[BEST] BELUSDT 1h A5_reversal {'look': 15, 'z': 2} ret=21.01% trades=106 score=0.2003 dd=-0.00
+[BEST] BELUSDT 4h A4_atr_break {'n': 7, 'm': 1.5} ret=20.51% trades=11 score=0.2010 dd=-0.00
+[BEST] BERAUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=17.14% trades=4 score=0.1656 dd=-0.00
+[BEST] BERAUSDT 4h A1_ma_cross {'fast': 15, 'slow': 40} ret=47.12% trades=2 score=0.4679 dd=-0.00
+[BEST] BICOUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=45.01% trades=157 score=0.4355 dd=-0.00
+[BEST] BICOUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=48.96% trades=48 score=0.4717 dd=-0.00
+[BEST] BIDUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=33.04% trades=9 score=0.3188 dd=-0.00
+[BEST] BIDUSDT 4h A4_atr_break {'n': 7, 'm': 1} ret=13.95% trades=11 score=0.1249 dd=-0.00
+[BEST] BIGTIMEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 60} ret=47.28% trades=61 score=0.4671 dd=-0.00
+[BEST] BIGTIMEUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=56.51% trades=46 score=0.5479 dd=-0.00
+[BEST] BIOUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=115.26% trades=2 score=1.1494 dd=-0.00
+[BEST] BIOUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=161.38% trades=37 score=1.6000 dd=-0.00
+[BEST] BLURUSDT 1h A3_rsi {'n': 26, 'low': 30, 'high': 70} ret=27.63% trades=54 score=0.2713 dd=-0.00
+[BEST] BLURUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=29.19% trades=8 score=0.2890 dd=-0.00
+[BEST] BMTUSDT 1h A1_ma_cross {'fast': 35, 'slow': 50} ret=20.54% trades=3 score=0.2009 dd=-0.00
+[BEST] BMTUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=23.02% trades=65 score=0.1435 dd=-0.00
+[BEST] BNBUSDT 1h A1_ma_cross {'fast': 40, 'slow': 200} ret=32.88% trades=11 score=0.3278 dd=-0.00
+[BEST] BNBUSDT 4h A1_ma_cross {'fast': 10, 'slow': 50} ret=33.57% trades=11 score=0.3314 dd=-0.00
+[BEST] BNTUSDT 1h A1_ma_cross {'fast': 40, 'slow': 70} ret=63.83% trades=34 score=0.6351 dd=-0.00
+[BEST] BNTUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=137.84% trades=4 score=1.3768 dd=-0.00
+[BEST] BOMEUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=201.84% trades=71 score=2.0118 dd=-0.00
+[BEST] BOMEUSDT 4h A1_ma_cross {'fast': 35, 'slow': 90} ret=102.17% trades=4 score=1.0200 dd=-0.00
+[BEST] BRETTUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=247.63% trades=72 score=2.4696 dd=-0.00
+[BEST] BRETTUSDT 4h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=190.86% trades=41 score=1.8933 dd=-0.00
+[SKIP] BROCCOLI714USDT_1h ݲ
+[SKIP] BROCCOLI714USDT_4h ݲ
+[SKIP] BROCCOLIF3BUSDT_1h ݲ
+[SKIP] BROCCOLIF3BUSDT_4h ݲ
+[BEST] BRUSDT 1h A2_bbands {'n': 20, 'k': 3} ret=-0.10% trades=1 score=-0.0023 dd=-0.00
+[BEST] BRUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=57.94% trades=12 score=0.5628 dd=-0.00
+[BEST] BSVUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=25.68% trades=244 score=0.2342 dd=-0.00
+[BEST] BSVUSDT 4h A7_donchian {'n': 45} ret=37.50% trades=11 score=0.3710 dd=-0.00
+[BEST] BSWUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=145.79% trades=137 score=1.4453 dd=-0.00
+[BEST] BSWUSDT 4h A1_ma_cross {'fast': 20, 'slow': 40} ret=236.15% trades=14 score=2.3563 dd=-0.00
+[BEST] BTCDOMUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=22.70% trades=65 score=0.2209 dd=-0.00
+[BEST] BTCDOMUSDT 4h A1_ma_cross {'fast': 35, 'slow': 50} ret=36.49% trades=10 score=0.3612 dd=-0.00
+[BEST] BTCUSDT 1h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=32.62% trades=193 score=0.3083 dd=-0.00
+[BEST] BTCUSDT 4h A1_ma_cross {'fast': 40, 'slow': 130} ret=31.11% trades=4 score=0.3094 dd=-0.00
+[BEST] BULLAUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=39.10% trades=8 score=0.3807 dd=-0.00
+[BEST] BULLAUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=69.91% trades=55 score=0.6164 dd=-0.00
+[BEST] BUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=33.67% trades=2 score=0.3334 dd=-0.00
+[BEST] BUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=89.09% trades=13 score=0.8730 dd=-0.00
+[BEST] C98USDT 1h A8_vol_break {'n': 10, 'k': 1.5} ret=35.63% trades=275 score=0.3309 dd=-0.00
+[BEST] C98USDT 4h A2_bbands {'n': 30, 'k': 3} ret=17.37% trades=4 score=0.1723 dd=-0.00
+[BEST] CAKEUSDT 1h A1_ma_cross {'fast': 35, 'slow': 110} ret=105.25% trades=20 score=1.0507 dd=-0.00
+[BEST] CAKEUSDT 4h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=106.89% trades=33 score=1.0565 dd=-0.00
+[BEST] CARVUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=18.02% trades=9 score=0.1686 dd=-0.00
+[BEST] CARVUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=93.55% trades=42 score=0.9198 dd=-0.00
+[BEST] CATIUSDT 1h A5_reversal {'look': 10, 'z': 1} ret=46.55% trades=549 score=0.4147 dd=-0.00
+[BEST] CATIUSDT 4h A4_atr_break {'n': 7, 'm': 1} ret=70.51% trades=52 score=0.6859 dd=-0.00
+[BEST] CELOUSDT 1h A1_ma_cross {'fast': 5, 'slow': 150} ret=49.59% trades=27 score=0.4933 dd=-0.00
+[BEST] CELOUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=35.25% trades=4 score=0.3509 dd=-0.00
+[BEST] CELRUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=67.13% trades=165 score=0.6560 dd=-0.00
+[BEST] CELRUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=73.65% trades=64 score=0.7128 dd=-0.00
+[BEST] CETUSUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=97.33% trades=23 score=0.9673 dd=-0.00
+[BEST] CETUSUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=112.96% trades=4 score=1.1280 dd=-0.00
+[BEST] CFXUSDT 1h A3_rsi {'n': 14, 'low': 30, 'high': 70} ret=190.62% trades=135 score=1.8938 dd=-0.00
+[BEST] CFXUSDT 4h A2_bbands {'n': 20, 'k': 2.5} ret=166.36% trades=12 score=1.6592 dd=-0.00
+[BEST] CGPTUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=57.63% trades=18 score=0.5716 dd=-0.00
+[BEST] CGPTUSDT 4h A1_ma_cross {'fast': 30, 'slow': 90} ret=56.56% trades=4 score=0.5639 dd=-0.00
+[BEST] CHESSUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=28.90% trades=83 score=0.2812 dd=-0.00
+[BEST] CHESSUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=42.30% trades=44 score=0.4066 dd=-0.00
+[BEST] CHILLGUYUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=5.56% trades=3 score=0.0511 dd=-0.00
+[BEST] CHILLGUYUSDT 4h A1_ma_cross {'fast': 25, 'slow': 130} ret=369.51% trades=3 score=3.6940 dd=-0.00
+[BEST] CHRUSDT 1h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=80.61% trades=180 score=0.7895 dd=-0.00
+[BEST] CHRUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=21.45% trades=6 score=0.2121 dd=-0.00
+[BEST] CHZUSDT 1h A5_reversal {'look': 15, 'z': 2} ret=27.77% trades=108 score=0.2677 dd=-0.00
+[BEST] CHZUSDT 4h A8_vol_break {'n': 30, 'k': 2} ret=9.31% trades=32 score=0.0812 dd=-0.00
+[BEST] CKBUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=82.56% trades=165 score=0.8103 dd=-0.00
+[BEST] CKBUSDT 4h A1_ma_cross {'fast': 30, 'slow': 40} ret=44.15% trades=15 score=0.4360 dd=-0.00
+[BEST] COMPUSDT 1h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=24.21% trades=191 score=0.2244 dd=-0.00
+[BEST] COMPUSDT 4h A2_bbands {'n': 40, 'k': 2} ret=17.21% trades=18 score=0.1654 dd=-0.00
+[BEST] COOKIEUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=138.47% trades=29 score=1.3772 dd=-0.00
+[BEST] COOKIEUSDT 4h A1_ma_cross {'fast': 5, 'slow': 130} ret=61.11% trades=6 score=0.6088 dd=-0.00
+[BEST] COSUSDT 1h A5_reversal {'look': 25, 'z': 1.5} ret=5.34% trades=14 score=0.0353 dd=-0.00
+[BEST] COSUSDT 4h A1_ma_cross {'fast': 25, 'slow': 150} ret=12.96% trades=4 score=0.1281 dd=-0.00
+[BEST] COTIUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=61.05% trades=162 score=0.5954 dd=-0.00
+[BEST] COTIUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=21.92% trades=66 score=0.1948 dd=-0.00
+[BEST] COWUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=27.51% trades=2 score=0.2719 dd=-0.00
+[BEST] COWUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=66.09% trades=24 score=0.6520 dd=-0.00
+[BEST] CROSSUSDT 1h A5_reversal {'look': 20, 'z': 2} ret=12.49% trades=7 score=0.1159 dd=-0.00
+[BEST] CROSSUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=287.42% trades=11 score=2.8570 dd=-0.00
+[BEST] CRVUSDT 1h A1_ma_cross {'fast': 35, 'slow': 170} ret=44.69% trades=17 score=0.4454 dd=-0.00
+[BEST] CRVUSDT 4h A1_ma_cross {'fast': 35, 'slow': 190} ret=91.21% trades=3 score=0.9109 dd=-0.00
+[BEST] CTKUSDT 1h A5_reversal {'look': 20, 'z': 2} ret=8.78% trades=8 score=0.0774 dd=-0.00
+[BEST] CTKUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=58.43% trades=12 score=0.5678 dd=-0.00
+[BEST] CTSIUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=107.54% trades=77 score=1.0683 dd=-0.00
+[BEST] CTSIUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=103.20% trades=61 score=1.0094 dd=-0.00
+[BEST] CUSDT 1h A8_vol_break {'n': 50, 'k': 1} ret=4.11% trades=19 score=0.0166 dd=-0.00
+[SKIP] CUSDT_4h ݲ
+[BEST] CVCUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=6.76% trades=3 score=0.0631 dd=-0.00
+[BEST] CVCUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=56.03% trades=6 score=0.5577 dd=-0.00
+[BEST] CVXUSDT 1h A1_ma_cross {'fast': 30, 'slow': 50} ret=131.84% trades=7 score=1.3151 dd=-0.00
+[BEST] CVXUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=184.89% trades=46 score=1.8317 dd=-0.00
+[BEST] CYBERUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=341.80% trades=150 score=3.4040 dd=-0.00
+[BEST] CYBERUSDT 4h A8_vol_break {'n': 30, 'k': 1} ret=119.66% trades=121 score=1.1518 dd=-0.00
+[BEST] DASHUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=29.01% trades=170 score=0.2743 dd=-0.00
+[BEST] DASHUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=29.33% trades=47 score=0.2757 dd=-0.00
+[BEST] DEEPUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=16.75% trades=11 score=0.1527 dd=-0.00
+[BEST] DEEPUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=28.18% trades=1 score=0.2798 dd=-0.00
+[BEST] DEGENUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=83.78% trades=27 score=0.8308 dd=-0.00
+[BEST] DEGENUSDT 4h A1_ma_cross {'fast': 35, 'slow': 70} ret=161.55% trades=6 score=1.6131 dd=-0.00
+[SKIP] DEGOUSDT_1h ݲ
+[BEST] DEGOUSDT 4h A5_reversal {'look': 30, 'z': 0.5} ret=82.78% trades=205 score=0.7520 dd=-0.00
+[BEST] DENTUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=77.22% trades=209 score=0.7528 dd=-0.00
+[BEST] DENTUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=74.27% trades=44 score=0.7263 dd=-0.00
+[BEST] DEXEUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=7.65% trades=6 score=0.0681 dd=-0.00
+[BEST] DEXEUSDT 4h A5_reversal {'look': 30, 'z': 1} ret=42.97% trades=100 score=0.3927 dd=-0.00
+[BEST] DFUSDT 1h A8_vol_break {'n': 50, 'k': 1.5} ret=5.28% trades=12 score=0.0373 dd=-0.00
+[BEST] DFUSDT 4h A5_reversal {'look': 5, 'z': 1} ret=14.44% trades=152 score=0.0882 dd=-0.00
+[BEST] DIAUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=22.27% trades=8 score=0.2124 dd=-0.00
+[BEST] DIAUSDT 4h A1_ma_cross {'fast': 40, 'slow': 120} ret=200.82% trades=3 score=2.0069 dd=-0.00
+[BEST] DMCUSDT 1h A7_donchian {'n': 40} ret=32.89% trades=2 score=0.3250 dd=-0.00
+[BEST] DMCUSDT 4h A1_ma_cross {'fast': 15, 'slow': 30} ret=45.99% trades=4 score=0.4546 dd=-0.00
+[BEST] DODOXUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=56.25% trades=176 score=0.5462 dd=-0.00
+[BEST] DODOXUSDT 4h A3_rsi {'n': 28, 'low': 30, 'high': 70} ret=13.94% trades=8 score=0.1364 dd=-0.00
+[BEST] DOGEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=75.65% trades=101 score=0.7471 dd=-0.00
+[BEST] DOGEUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=88.37% trades=43 score=0.8676 dd=-0.00
+[BEST] DOGSUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=139.78% trades=164 score=1.3826 dd=-0.00
+[BEST] DOGSUSDT 4h A2_bbands {'n': 20, 'k': 1.5} ret=74.16% trades=41 score=0.7265 dd=-0.00
+[BEST] DOLOUSDT 1h A1_ma_cross {'fast': 5, 'slow': 60} ret=48.96% trades=1 score=0.4876 dd=-0.00
+[BEST] DOLOUSDT 4h A1_ma_cross {'fast': 15, 'slow': 30} ret=454.67% trades=4 score=4.5414 dd=-0.00
+[BEST] DOODUSDT 1h A1_ma_cross {'fast': 20, 'slow': 40} ret=35.25% trades=6 score=0.3441 dd=-0.00
+[BEST] DOODUSDT 4h A1_ma_cross {'fast': 30, 'slow': 40} ret=65.13% trades=5 score=0.6447 dd=-0.00
+[BEST] DOTUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=20.39% trades=60 score=0.1983 dd=-0.00
+[BEST] DOTUSDT 4h A2_bbands {'n': 30, 'k': 1.5} ret=25.56% trades=36 score=0.2423 dd=-0.00
+[BEST] DRIFTUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=83.11% trades=32 score=0.8228 dd=-0.00
+[BEST] DRIFTUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=62.18% trades=50 score=0.6032 dd=-0.00
+[BEST] DUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=6.29% trades=7 score=0.0533 dd=-0.00
+[BEST] DUSDT 4h A1_ma_cross {'fast': 20, 'slow': 190} ret=3.98% trades=3 score=0.0387 dd=-0.00
+[BEST] DUSKUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=83.07% trades=160 score=0.8159 dd=-0.00
+[BEST] DUSKUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=29.46% trades=17 score=0.2883 dd=-0.00
+[BEST] DYDXUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=34.34% trades=71 score=0.3368 dd=-0.00
+[BEST] DYDXUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=49.71% trades=49 score=0.4788 dd=-0.00
+[BEST] DYMUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=60.45% trades=171 score=0.5886 dd=-0.00
+[BEST] DYMUSDT 4h A8_vol_break {'n': 30, 'k': 1.5} ret=30.69% trades=55 score=0.2866 dd=-0.00
+[BEST] EDUUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=47.21% trades=177 score=0.4557 dd=-0.00
+[BEST] EDUUSDT 4h A1_ma_cross {'fast': 20, 'slow': 140} ret=26.29% trades=2 score=0.2620 dd=-0.00
+[BEST] EGLDUSDT 1h A7_donchian {'n': 15} ret=34.57% trades=175 score=0.3295 dd=-0.00
+[BEST] EGLDUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=39.32% trades=44 score=0.3768 dd=-0.00
+[BEST] EIGENUSDT 1h A1_ma_cross {'fast': 30, 'slow': 50} ret=31.69% trades=2 score=0.3137 dd=-0.00
+[BEST] EIGENUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=83.02% trades=10 score=0.8263 dd=-0.00
+[BEST] ENAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=247.76% trades=81 score=2.4701 dd=-0.00
+[BEST] ENAUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=184.85% trades=41 score=1.8332 dd=-0.00
+[BEST] ENJUSDT 1h A4_atr_break {'n': 28, 'm': 1.5} ret=47.71% trades=46 score=0.4728 dd=-0.00
+[BEST] ENJUSDT 4h A2_bbands {'n': 30, 'k': 2.5} ret=37.38% trades=10 score=0.3701 dd=-0.00
+[BEST] ENSUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=66.36% trades=186 score=0.6463 dd=-0.00
+[BEST] ENSUSDT 4h A1_ma_cross {'fast': 40, 'slow': 130} ret=84.69% trades=3 score=0.8456 dd=-0.00
+[BEST] EPICUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=49.16% trades=10 score=0.4787 dd=-0.00
+[BEST] EPICUSDT 4h A1_ma_cross {'fast': 15, 'slow': 30} ret=178.05% trades=5 score=1.7732 dd=-0.00
+[BEST] EPTUSDT 1h A5_reversal {'look': 15, 'z': 0.5} ret=23.60% trades=60 score=0.1573 dd=-0.00
+[BEST] EPTUSDT 4h A5_reversal {'look': 20, 'z': 1.5} ret=15.29% trades=19 score=0.1279 dd=-0.00
+[BEST] ERAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 70} ret=7.97% trades=1 score=0.0777 dd=-0.00
+[SKIP] ERAUSDT_4h ݲ
+[BEST] ESPORTSUSDT 1h A5_reversal {'look': 15, 'z': 0.5} ret=35.18% trades=66 score=0.2666 dd=-0.00
+[SKIP] ESPORTSUSDT_4h ݲ
+[BEST] ETCUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=64.65% trades=160 score=0.6317 dd=-0.00
+[BEST] ETCUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=44.15% trades=49 score=0.4232 dd=-0.00
+[BEST] ETHFIUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=104.62% trades=80 score=1.0387 dd=-0.00
+[BEST] ETHFIUSDT 4h A1_ma_cross {'fast': 40, 'slow': 140} ret=151.39% trades=2 score=1.5129 dd=-0.00
+[BEST] ETHUSDT 1h A1_ma_cross {'fast': 35, 'slow': 190} ret=107.06% trades=13 score=1.0693 dd=-0.00
+[BEST] ETHUSDT 4h A1_ma_cross {'fast': 20, 'slow': 30} ret=112.87% trades=22 score=1.1206 dd=-0.00
+[BEST] ETHWUSDT 1h A1_ma_cross {'fast': 5, 'slow': 160} ret=57.83% trades=28 score=0.5757 dd=-0.00
+[BEST] ETHWUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=67.90% trades=27 score=0.6690 dd=-0.00
+[BEST] FARTCOINUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=12.44% trades=2 score=0.1212 dd=-0.00
+[BEST] FARTCOINUSDT 4h A1_ma_cross {'fast': 30, 'slow': 170} ret=332.58% trades=3 score=3.3246 dd=-0.00
+[BEST] FETUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=80.42% trades=83 score=0.7965 dd=-0.00
+[BEST] FETUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=90.60% trades=40 score=0.8910 dd=-0.00
+[BEST] FHEUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=8.40% trades=3 score=0.0795 dd=-0.00
+[BEST] FHEUSDT 4h A5_reversal {'look': 20, 'z': 0.5} ret=38.85% trades=51 score=0.3199 dd=-0.00
+[BEST] FIDAUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=43.95% trades=161 score=0.4245 dd=-0.00
+[BEST] FIDAUSDT 4h A2_bbands {'n': 20, 'k': 2} ret=41.88% trades=26 score=0.4092 dd=-0.00
+[BEST] FILUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=65.16% trades=183 score=0.6346 dd=-0.00
+[BEST] FILUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=26.85% trades=44 score=0.2521 dd=-0.00
+[BEST] FIOUSDT 1h A5_reversal {'look': 25, 'z': 2} ret=50.82% trades=118 score=0.4972 dd=-0.00
+[BEST] FIOUSDT 4h A1_ma_cross {'fast': 10, 'slow': 200} ret=42.30% trades=2 score=0.4223 dd=-0.00
+[BEST] FISUSDT 1h A2_bbands {'n': 10, 'k': 2.5} ret=82.75% trades=9 score=0.8253 dd=-0.00
+[BEST] FISUSDT 4h A4_atr_break {'n': 25, 'm': 1} ret=102.71% trades=37 score=1.0134 dd=-0.00
+[BEST] FLMUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=226.92% trades=169 score=2.2535 dd=-0.00
+[BEST] FLMUSDT 4h A2_bbands {'n': 30, 'k': 1.5} ret=102.93% trades=36 score=1.0160 dd=-0.00
+[BEST] FLOWUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=59.72% trades=181 score=0.5804 dd=-0.00
+[BEST] FLOWUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=39.42% trades=9 score=0.3907 dd=-0.00
+[BEST] FLUXUSDT 1h A1_ma_cross {'fast': 5, 'slow': 190} ret=31.36% trades=21 score=0.3117 dd=-0.00
+[BEST] FLUXUSDT 4h A7_donchian {'n': 10} ret=39.31% trades=52 score=0.3738 dd=-0.00
+[BEST] FORMUSDT 1h A5_reversal {'look': 20, 'z': 2} ret=2.67% trades=6 score=0.0190 dd=-0.00
+[BEST] FORMUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=26.21% trades=13 score=0.2443 dd=-0.00
+[BEST] FORTHUSDT 1h A8_vol_break {'n': 30, 'k': 1} ret=34.63% trades=17 score=0.3244 dd=-0.00
+[BEST] FORTHUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=26.85% trades=6 score=0.2600 dd=-0.00
+[BEST] FUNUSDT 1h A4_atr_break {'n': 25, 'm': 1.5} ret=25.82% trades=5 score=0.2517 dd=-0.00
+[BEST] FUNUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=108.56% trades=3 score=1.0810 dd=-0.00
+[BEST] FUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=3.02% trades=4 score=0.0244 dd=-0.00
+[BEST] FUSDT 4h A5_reversal {'look': 10, 'z': 0.5} ret=42.95% trades=231 score=0.3440 dd=-0.00
+[BEST] FXSUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=246.43% trades=85 score=2.4564 dd=-0.00
+[BEST] FXSUSDT 4h A2_bbands {'n': 50, 'k': 1.5} ret=180.92% trades=17 score=1.8029 dd=-0.00
+[BEST] GALAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=71.79% trades=72 score=0.7112 dd=-0.00
+[BEST] GALAUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=61.91% trades=42 score=0.6034 dd=-0.00
+[BEST] GASUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=43.16% trades=92 score=0.4231 dd=-0.00
+[BEST] GASUSDT 4h A1_ma_cross {'fast': 25, 'slow': 40} ret=36.99% trades=12 score=0.3653 dd=-0.00
+[BEST] GHSTUSDT 1h A1_ma_cross {'fast': 5, 'slow': 160} ret=82.66% trades=27 score=0.8241 dd=-0.00
+[BEST] GHSTUSDT 4h A1_ma_cross {'fast': 10, 'slow': 60} ret=75.09% trades=7 score=0.7481 dd=-0.00
+[BEST] GLMUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=29.29% trades=80 score=0.2854 dd=-0.00
+[BEST] GLMUSDT 4h A5_reversal {'look': 15, 'z': 0.5} ret=28.06% trades=213 score=0.2018 dd=-0.00
+[BEST] GMTUSDT 1h A8_vol_break {'n': 60, 'k': 2} ret=35.21% trades=119 score=0.3411 dd=-0.00
+[BEST] GMTUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=27.26% trades=46 score=0.2554 dd=-0.00
+[BEST] GMXUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=127.59% trades=142 score=1.2627 dd=-0.00
+[BEST] GMXUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=37.55% trades=26 score=0.3658 dd=-0.00
+[BEST] GOATUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=5.58% trades=3 score=0.0513 dd=-0.00
+[BEST] GOATUSDT 4h A1_ma_cross {'fast': 40, 'slow': 130} ret=199.18% trades=3 score=1.9906 dd=-0.00
+[BEST] GPSUSDT 1h A2_bbands {'n': 40, 'k': 2.5} ret=2.13% trades=1 score=0.0200 dd=-0.00
+[BEST] GPSUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=8.04% trades=26 score=0.0707 dd=-0.00
+[BEST] GRASSUSDT 1h A1_ma_cross {'fast': 25, 'slow': 50} ret=22.90% trades=3 score=0.2251 dd=-0.00
+[BEST] GRASSUSDT 4h A1_ma_cross {'fast': 20, 'slow': 40} ret=33.01% trades=15 score=0.3245 dd=-0.00
+[BEST] GRIFFAINUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=25.41% trades=2 score=0.2509 dd=-0.00
+[BEST] GRIFFAINUSDT 4h A2_bbands {'n': 10, 'k': 2} ret=121.58% trades=39 score=1.2010 dd=-0.00
+[BEST] GRTUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=46.92% trades=71 score=0.4626 dd=-0.00
+[BEST] GRTUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=38.65% trades=42 score=0.3708 dd=-0.00
+[BEST] GTCUSDT 1h A2_bbands {'n': 20, 'k': 1.5} ret=82.76% trades=197 score=0.8093 dd=-0.00
+[BEST] GTCUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=74.52% trades=41 score=0.7301 dd=-0.00
+[BEST] GUNUSDT 1h A5_reversal {'look': 30, 'z': 1} ret=10.45% trades=32 score=0.0620 dd=-0.00
+[BEST] GUNUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=30.56% trades=13 score=0.2878 dd=-0.00
+[BEST] GUSDT 1h A5_reversal {'look': 30, 'z': 2} ret=20.06% trades=123 score=0.1892 dd=-0.00
+[BEST] GUSDT 4h A1_ma_cross {'fast': 30, 'slow': 150} ret=5.61% trades=3 score=0.0550 dd=-0.00
+[BEST] HAEDALUSDT 1h A5_reversal {'look': 15, 'z': 2} ret=4.28% trades=6 score=0.0351 dd=-0.00
+[BEST] HAEDALUSDT 4h A4_atr_break {'n': 13, 'm': 1} ret=45.72% trades=16 score=0.4361 dd=-0.00
+[BEST] HBARUSDT 1h A1_ma_cross {'fast': 30, 'slow': 90} ret=93.50% trades=26 score=0.9326 dd=-0.00
+[BEST] HBARUSDT 4h A1_ma_cross {'fast': 35, 'slow': 160} ret=68.63% trades=3 score=0.6852 dd=-0.00
+[BEST] HEIUSDT 1h A2_bbands {'n': 60, 'k': 1.5} ret=41.66% trades=5 score=0.4102 dd=-0.00
+[BEST] HEIUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=63.28% trades=12 score=0.6163 dd=-0.00
+[BEST] HFTUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=368.44% trades=160 score=3.6696 dd=-0.00
+[BEST] HFTUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=295.24% trades=40 score=2.9374 dd=-0.00
+[BEST] HIFIUSDT 1h A1_ma_cross {'fast': 10, 'slow': 200} ret=111.35% trades=16 score=1.1120 dd=-0.00
+[BEST] HIFIUSDT 4h A1_ma_cross {'fast': 35, 'slow': 50} ret=137.64% trades=6 score=1.3740 dd=-0.00
+[BEST] HIGHUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=47.25% trades=79 score=0.4651 dd=-0.00
+[BEST] HIGHUSDT 4h A1_ma_cross {'fast': 40, 'slow': 140} ret=58.17% trades=3 score=0.5804 dd=-0.00
+[BEST] HIPPOUSDT 1h A1_ma_cross {'fast': 35, 'slow': 50} ret=28.75% trades=1 score=0.2856 dd=-0.00
+[BEST] HIPPOUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=114.96% trades=246 score=1.0584 dd=-0.00
+[BEST] HIVEUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=4.66% trades=4 score=0.0408 dd=-0.00
+[BEST] HIVEUSDT 4h A1_ma_cross {'fast': 35, 'slow': 90} ret=20.98% trades=4 score=0.2081 dd=-0.00
+[BEST] HMSTRUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=62.84% trades=70 score=0.6106 dd=-0.00
+[BEST] HMSTRUSDT 4h A1_ma_cross {'fast': 20, 'slow': 30} ret=31.39% trades=24 score=0.3050 dd=-0.00
+[BEST] HOMEUSDT 1h A1_ma_cross {'fast': 40, 'slow': 110} ret=22.18% trades=1 score=0.2199 dd=-0.00
+[BEST] HOMEUSDT 4h A1_ma_cross {'fast': 25, 'slow': 60} ret=71.57% trades=1 score=0.7137 dd=-0.00
+[BEST] HOOKUSDT 1h A5_reversal {'look': 15, 'z': 2} ret=33.19% trades=95 score=0.3231 dd=-0.00
+[BEST] HOOKUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=23.52% trades=4 score=0.2336 dd=-0.00
+[BEST] HOTUSDT 1h A7_donchian {'n': 35} ret=21.16% trades=104 score=0.2020 dd=-0.00
+[BEST] HOTUSDT 4h A1_ma_cross {'fast': 35, 'slow': 80} ret=17.13% trades=7 score=0.1685 dd=-0.00
+[BEST] HUMAUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=11.03% trades=6 score=0.1026 dd=-0.00
+[BEST] HUMAUSDT 4h A5_reversal {'look': 30, 'z': 0.5} ret=42.64% trades=54 score=0.3551 dd=-0.00
+[BEST] HUSDT 1h A3_rsi {'n': 22, 'low': 30, 'high': 70} ret=7.95% trades=5 score=0.0730 dd=-0.00
+[BEST] HUSDT 4h A4_atr_break {'n': 7, 'm': 1} ret=125.82% trades=12 score=1.2424 dd=-0.00
+[BEST] HYPERUSDT 1h A5_reversal {'look': 30, 'z': 1.5} ret=3.63% trades=11 score=0.0222 dd=-0.00
+[BEST] HYPERUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=537.37% trades=9 score=5.3611 dd=-0.00
+[BEST] HYPEUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=23.61% trades=5 score=0.2297 dd=-0.00
+[BEST] HYPEUSDT 4h A1_ma_cross {'fast': 10, 'slow': 90} ret=197.53% trades=5 score=1.9732 dd=-0.00
+[BEST] ICNTUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=49.62% trades=3 score=0.4923 dd=-0.00
+[BEST] ICNTUSDT 4h A1_ma_cross {'fast': 15, 'slow': 50} ret=61.65% trades=3 score=0.6121 dd=-0.00
+[BEST] ICPUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=34.25% trades=72 score=0.3358 dd=-0.00
+[BEST] ICPUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=25.28% trades=43 score=0.2367 dd=-0.00
+[BEST] ICXUSDT 1h A4_atr_break {'n': 10, 'm': 1.5} ret=36.06% trades=54 score=0.3556 dd=-0.00
+[BEST] ICXUSDT 4h A1_ma_cross {'fast': 25, 'slow': 40} ret=64.68% trades=13 score=0.6416 dd=-0.00
+[BEST] IDOLUSDT 1h A5_reversal {'look': 30, 'z': 0.5} ret=55.28% trades=57 score=0.4797 dd=-0.00
+[BEST] IDOLUSDT 4h A5_reversal {'look': 30, 'z': 1.5} ret=62.23% trades=17 score=0.5998 dd=-0.00
+[BEST] IDUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=33.85% trades=257 score=0.3147 dd=-0.00
+[BEST] IDUSDT 4h A4_atr_break {'n': 13, 'm': 2.5} ret=0.64% trades=1 score=0.0060 dd=-0.00
+[BEST] ILVUSDT 1h A2_bbands {'n': 20, 'k': 1.5} ret=101.74% trades=195 score=0.9993 dd=-0.00
+[BEST] ILVUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=84.04% trades=39 score=0.8257 dd=-0.00
+[BEST] IMXUSDT 1h A1_ma_cross {'fast': 5, 'slow': 140} ret=92.32% trades=27 score=0.9207 dd=-0.00
+[BEST] IMXUSDT 4h A1_ma_cross {'fast': 40, 'slow': 120} ret=52.21% trades=4 score=0.5204 dd=-0.00
+[BEST] INITUSDT 1h A2_bbands {'n': 20, 'k': 2.5} ret=5.92% trades=4 score=0.0541 dd=-0.00
+[BEST] INITUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=38.24% trades=17 score=0.3587 dd=-0.00
+[BEST] INJUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=64.45% trades=61 score=0.6388 dd=-0.00
+[BEST] INJUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=135.89% trades=39 score=1.3443 dd=-0.00
+[SKIP] INUSDT_1h ݲ
+[SKIP] INUSDT_4h ݲ
+[BEST] IOSTUSDT 1h A7_donchian {'n': 10} ret=59.37% trades=227 score=0.5727 dd=-0.00
+[BEST] IOSTUSDT 4h A8_vol_break {'n': 50, 'k': 1.5} ret=30.48% trades=52 score=0.2856 dd=-0.00
+[BEST] IOTAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=79.03% trades=72 score=0.7836 dd=-0.00
+[BEST] IOTAUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=74.93% trades=4 score=0.7477 dd=-0.00
+[BEST] IOTXUSDT 1h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=58.75% trades=179 score=0.5709 dd=-0.00
+[BEST] IOTXUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=40.14% trades=255 score=0.3070 dd=-0.00
+[BEST] IOUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=38.20% trades=143 score=0.3688 dd=-0.00
+[BEST] IOUSDT 4h A8_vol_break {'n': 40, 'k': 2} ret=65.42% trades=27 score=0.6442 dd=-0.00
+[BEST] IPUSDT 1h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=15.25% trades=12 score=0.1371 dd=-0.00
+[BEST] IPUSDT 4h A1_ma_cross {'fast': 25, 'slow': 40} ret=98.81% trades=2 score=0.9854 dd=-0.00
+[BEST] JASMYUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=99.15% trades=71 score=0.9848 dd=-0.00
+[BEST] JASMYUSDT 4h A1_ma_cross {'fast': 5, 'slow': 100} ret=48.00% trades=8 score=0.4769 dd=-0.00
+[BEST] JELLYJELLYUSDT 1h A1_ma_cross {'fast': 40, 'slow': 140} ret=7.37% trades=2 score=0.0712 dd=-0.00
+[BEST] JELLYJELLYUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=216.61% trades=233 score=2.0799 dd=-0.00
+[BEST] JOEUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=64.13% trades=189 score=0.6238 dd=-0.00
+[BEST] JOEUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=30.70% trades=44 score=0.2906 dd=-0.00
+[BEST] JSTUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=17.40% trades=22 score=0.1683 dd=-0.00
+[BEST] JSTUSDT 4h A8_vol_break {'n': 50, 'k': 1.5} ret=20.45% trades=41 score=0.1893 dd=-0.00
+[BEST] JTOUSDT 1h A3_rsi {'n': 14, 'low': 30, 'high': 70} ret=41.34% trades=113 score=0.4029 dd=-0.00
+[BEST] JTOUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=76.50% trades=46 score=0.7478 dd=-0.00
+[BEST] JUPUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=134.87% trades=71 score=1.3420 dd=-0.00
+[BEST] JUPUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=49.90% trades=43 score=0.4829 dd=-0.00
+[BEST] KAIAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 200} ret=44.58% trades=2 score=0.4444 dd=-0.00
+[BEST] KAIAUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=72.13% trades=51 score=0.7022 dd=-0.00
+[BEST] KAITOUSDT 1h A5_reversal {'look': 15, 'z': 1.5} ret=4.93% trades=15 score=0.0301 dd=-0.00
+[BEST] KAITOUSDT 4h A5_reversal {'look': 5, 'z': 1} ret=13.95% trades=47 score=0.0774 dd=-0.00
+[BEST] KASUSDT 1h A1_ma_cross {'fast': 5, 'slow': 180} ret=59.96% trades=26 score=0.5971 dd=-0.00
+[BEST] KASUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=113.25% trades=29 score=1.1218 dd=-0.00
+[BEST] KAVAUSDT 1h A5_reversal {'look': 15, 'z': 1.5} ret=43.91% trades=236 score=0.4173 dd=-0.00
+[BEST] KAVAUSDT 4h A5_reversal {'look': 5, 'z': 1} ret=50.21% trades=155 score=0.4448 dd=-0.00
+[BEST] KDAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 160} ret=42.07% trades=25 score=0.4184 dd=-0.00
+[BEST] KDAUSDT 4h A1_ma_cross {'fast': 35, 'slow': 120} ret=64.22% trades=4 score=0.6405 dd=-0.00
+[BEST] KERNELUSDT 1h A4_atr_break {'n': 7, 'm': 1.5} ret=10.83% trades=10 score=0.0955 dd=-0.00
+[BEST] KERNELUSDT 4h A1_ma_cross {'fast': 30, 'slow': 40} ret=64.92% trades=6 score=0.6406 dd=-0.00
+[BEST] KMNOUSDT 1h A1_ma_cross {'fast': 20, 'slow': 50} ret=39.17% trades=15 score=0.3878 dd=-0.00
+[BEST] KMNOUSDT 4h A1_ma_cross {'fast': 30, 'slow': 40} ret=30.74% trades=14 score=0.3020 dd=-0.00
+[BEST] KNCUSDT 1h A8_vol_break {'n': 60, 'k': 2} ret=127.38% trades=98 score=1.2647 dd=-0.00
+[BEST] KNCUSDT 4h A2_bbands {'n': 20, 'k': 1.5} ret=140.79% trades=41 score=1.3926 dd=-0.00
+[BEST] KOMAUSDT 1h A5_reversal {'look': 15, 'z': 1} ret=21.62% trades=38 score=0.1675 dd=-0.00
+[BEST] KOMAUSDT 4h A5_reversal {'look': 10, 'z': 1.5} ret=65.44% trades=50 score=0.6359 dd=-0.00
+[BEST] KSMUSDT 1h A7_donchian {'n': 20} ret=55.82% trades=162 score=0.5432 dd=-0.00
+[BEST] KSMUSDT 4h A3_rsi {'n': 22, 'low': 30, 'high': 70} ret=48.70% trades=8 score=0.4841 dd=-0.00
+[BEST] LAUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=27.98% trades=9 score=0.2683 dd=-0.00
+[BEST] LAUSDT 4h A5_reversal {'look': 15, 'z': 1} ret=24.70% trades=33 score=0.2034 dd=-0.00
+[BEST] LAYERUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=3.96% trades=3 score=0.0351 dd=-0.00
+[BEST] LAYERUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=12.38% trades=5 score=0.1172 dd=-0.00
+[BEST] LDOUSDT 1h A1_ma_cross {'fast': 5, 'slow': 80} ret=84.26% trades=45 score=0.8385 dd=-0.00
+[BEST] LDOUSDT 4h A2_bbands {'n': 40, 'k': 1.5} ret=78.55% trades=29 score=0.7747 dd=-0.00
+[BEST] LEVERUSDT 1h A2_bbands {'n': 60, 'k': 2} ret=5.75% trades=50 score=0.0528 dd=-0.00
+[BEST] LEVERUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=35.47% trades=17 score=0.3484 dd=-0.00
+[BEST] LINKUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=85.34% trades=73 score=0.8466 dd=-0.00
+[BEST] LINKUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=75.15% trades=42 score=0.7358 dd=-0.00
+[BEST] LISTAUSDT 1h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=107.53% trades=157 score=1.0607 dd=-0.00
+[BEST] LISTAUSDT 4h A1_ma_cross {'fast': 15, 'slow': 30} ret=51.29% trades=18 score=0.5062 dd=-0.00
+[BEST] LPTUSDT 1h A2_bbands {'n': 30, 'k': 2} ret=182.49% trades=97 score=1.8159 dd=-0.00
+[BEST] LPTUSDT 4h A4_atr_break {'n': 16, 'm': 2} ret=97.31% trades=9 score=0.9697 dd=-0.00
+[BEST] LQTYUSDT 1h A1_ma_cross {'fast': 30, 'slow': 120} ret=128.63% trades=19 score=1.2846 dd=-0.00
+[BEST] LQTYUSDT 4h A1_ma_cross {'fast': 10, 'slow': 30} ret=91.64% trades=16 score=0.9104 dd=-0.00
+[BEST] LRCUSDT 1h A5_reversal {'look': 10, 'z': 1.5} ret=30.02% trades=246 score=0.2774 dd=-0.00
+[BEST] LRCUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=27.49% trades=5 score=0.2729 dd=-0.00
+[BEST] LSKUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=19.02% trades=87 score=0.1822 dd=-0.00
+[BEST] LSKUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=15.01% trades=8 score=0.1471 dd=-0.00
+[BEST] LTCUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=47.40% trades=173 score=0.4580 dd=-0.00
+[BEST] LTCUSDT 4h A1_ma_cross {'fast': 40, 'slow': 100} ret=50.59% trades=4 score=0.5042 dd=-0.00
+[BEST] LUMIAUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=23.07% trades=10 score=0.2179 dd=-0.00
+[BEST] LUMIAUSDT 4h A5_reversal {'look': 5, 'z': 1} ret=44.04% trades=153 score=0.3838 dd=-0.00
+[BEST] LUNA2USDT 1h A5_reversal {'look': 30, 'z': 2} ret=36.30% trades=117 score=0.3521 dd=-0.00
+[BEST] LUNA2USDT 4h A7_donchian {'n': 25} ret=15.08% trades=22 score=0.1427 dd=-0.00
+[BEST] MAGICUSDT 1h A2_bbands {'n': 10, 'k': 2} ret=356.26% trades=108 score=3.5526 dd=-0.00
+[BEST] MAGICUSDT 4h A3_rsi {'n': 14, 'low': 30, 'high': 70} ret=240.35% trades=21 score=2.3957 dd=-0.00
+[BEST] MANAUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=33.97% trades=243 score=0.3172 dd=-0.00
+[BEST] MANAUSDT 4h A1_ma_cross {'fast': 40, 'slow': 170} ret=26.48% trades=2 score=0.2640 dd=-0.00
+[BEST] MANTAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=50.40% trades=61 score=0.4983 dd=-0.00
+[BEST] MANTAUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=71.07% trades=61 score=0.6881 dd=-0.00
+[BEST] MASKUSDT 1h A1_ma_cross {'fast': 15, 'slow': 200} ret=60.65% trades=16 score=0.6050 dd=-0.00
+[BEST] MASKUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=87.30% trades=252 score=0.7798 dd=-0.00
+[BEST] MAVIAUSDT 1h A2_bbands {'n': 20, 'k': 3} ret=22.57% trades=2 score=0.2231 dd=-0.00
+[BEST] MAVIAUSDT 4h A4_atr_break {'n': 10, 'm': 1} ret=406.10% trades=39 score=4.0465 dd=-0.00
+[BEST] MAVUSDT 1h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=145.60% trades=176 score=1.4398 dd=-0.00
+[BEST] MAVUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=91.60% trades=36 score=0.9025 dd=-0.00
+[BEST] MBOXUSDT 1h A1_ma_cross {'fast': 40, 'slow': 60} ret=75.80% trades=43 score=0.7540 dd=-0.00
+[BEST] MBOXUSDT 4h A1_ma_cross {'fast': 40, 'slow': 140} ret=35.31% trades=2 score=0.3522 dd=-0.00
+[BEST] MELANIAUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=5.20% trades=4 score=0.0463 dd=-0.00
+[BEST] MELANIAUSDT 4h A5_reversal {'look': 15, 'z': 2} ret=24.16% trades=27 score=0.2316 dd=-0.00
+[BEST] MEMEUSDT 1h A5_reversal {'look': 10, 'z': 1} ret=21.17% trades=41 score=0.1593 dd=-0.00
+[BEST] MEMEUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=33.87% trades=46 score=0.3215 dd=-0.00
+[BEST] MERLUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=51.51% trades=69 score=0.4974 dd=-0.00
+[BEST] MERLUSDT 4h A1_ma_cross {'fast': 30, 'slow': 50} ret=89.84% trades=13 score=0.8936 dd=-0.00
+[BEST] METISUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=30.74% trades=3 score=0.3029 dd=-0.00
+[BEST] METISUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=88.62% trades=39 score=0.8716 dd=-0.00
+[BEST] MEUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=2.69% trades=3 score=0.0230 dd=-0.00
+[BEST] MEUSDT 4h A7_donchian {'n': 20} ret=10.84% trades=32 score=0.0966 dd=-0.00
+[BEST] MEWUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=10.09% trades=5 score=0.0939 dd=-0.00
+[BEST] MEWUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=168.39% trades=44 score=1.6674 dd=-0.00
+[BEST] MILKUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=5.43% trades=6 score=0.0460 dd=-0.00
+[BEST] MILKUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=19.78% trades=12 score=0.1819 dd=-0.00
+[BEST] MINAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=8.59% trades=3 score=0.0814 dd=-0.00
+[BEST] MINAUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=14.93% trades=39 score=0.1347 dd=-0.00
+[BEST] MKRUSDT 1h A1_ma_cross {'fast': 5, 'slow': 60} ret=61.22% trades=6 score=0.6086 dd=-0.00
+[BEST] MKRUSDT 4h A5_reversal {'look': 20, 'z': 1} ret=29.98% trades=38 score=0.2496 dd=-0.00
+[BEST] MLNUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=29.86% trades=11 score=0.2846 dd=-0.00
+[BEST] MLNUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=30.61% trades=6 score=0.2982 dd=-0.00
+[BEST] MOCAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=7.71% trades=4 score=0.0707 dd=-0.00
+[BEST] MOCAUSDT 4h A1_ma_cross {'fast': 30, 'slow': 80} ret=3.92% trades=8 score=0.0365 dd=-0.00
+[BEST] MOODENGUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=1077.97% trades=27 score=10.7728 dd=-0.00
+[BEST] MOODENGUSDT 4h A1_ma_cross {'fast': 5, 'slow': 120} ret=647.26% trades=5 score=6.4707 dd=-0.00
+[BEST] MORPHOUSDT 1h A1_ma_cross {'fast': 15, 'slow': 40} ret=15.37% trades=3 score=0.1492 dd=-0.00
+[BEST] MORPHOUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=114.33% trades=8 score=1.1400 dd=-0.00
+[BEST] MOVEUSDT 1h A4_atr_break {'n': 13, 'm': 1} ret=5.73% trades=19 score=0.0330 dd=-0.00
+[BEST] MOVEUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=27.36% trades=35 score=0.2605 dd=-0.00
+[BEST] MOVRUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=17.10% trades=3 score=0.1666 dd=-0.00
+[BEST] MOVRUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=88.08% trades=43 score=0.8647 dd=-0.00
+[BEST] MTLUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=4.98% trades=3 score=0.0454 dd=-0.00
+[BEST] MTLUSDT 4h A8_vol_break {'n': 30, 'k': 2} ret=24.80% trades=22 score=0.2399 dd=-0.00
+[BEST] MUBARAKUSDT 1h A5_reversal {'look': 30, 'z': 0.5} ret=15.33% trades=55 score=0.0817 dd=-0.00
+[BEST] MUBARAKUSDT 4h A5_reversal {'look': 25, 'z': 0.5} ret=46.37% trades=61 score=0.3832 dd=-0.00
+[BEST] MUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=3.55% trades=9 score=0.0233 dd=-0.00
+[BEST] MUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=1400.32% trades=8 score=13.9900 dd=-0.00
+[BEST] MYROUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=58.97% trades=2 score=0.5865 dd=-0.00
+[BEST] MYROUSDT 4h A1_ma_cross {'fast': 20, 'slow': 40} ret=153.02% trades=15 score=1.5246 dd=-0.00
+[BEST] MYXUSDT 1h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=113.27% trades=16 score=1.1110 dd=-0.00
+[BEST] MYXUSDT 4h A1_ma_cross {'fast': 10, 'slow': 30} ret=1721.63% trades=6 score=17.2078 dd=-0.00
+[BEST] NAORISUSDT 1h A5_reversal {'look': 30, 'z': 0.5} ret=27.07% trades=63 score=0.1901 dd=-0.00
+[SKIP] NAORISUSDT_4h ݲ
+[BEST] NEARUSDT 1h A1_ma_cross {'fast': 20, 'slow': 140} ret=19.24% trades=4 score=0.1907 dd=-0.00
+[BEST] NEARUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=77.43% trades=41 score=0.7590 dd=-0.00
+[BEST] NEIROETHUSDT 1h A1_ma_cross {'fast': 40, 'slow': 80} ret=587.85% trades=3 score=5.8766 dd=-0.00
+[BEST] NEIROETHUSDT 4h A1_ma_cross {'fast': 40, 'slow': 80} ret=416.58% trades=9 score=4.1625 dd=-0.00
+[SKIP] NEIROUSDT_1h ݲ
+[SKIP] NEIROUSDT_4h ݲ
+[BEST] NEOUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=5.42% trades=3 score=0.0498 dd=-0.00
+[BEST] NEOUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=45.11% trades=24 score=0.4422 dd=-0.00
+[BEST] NEWTUSDT 1h A1_ma_cross {'fast': 40, 'slow': 180} ret=2.71% trades=1 score=0.0258 dd=-0.00
+[BEST] NEWTUSDT 4h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=56.10% trades=12 score=0.5444 dd=-0.00
+[BEST] NFPUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=13.58% trades=14 score=0.1179 dd=-0.00
+[BEST] NFPUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=51.24% trades=72 score=0.4173 dd=-0.00
+[BEST] NILUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=7.51% trades=3 score=0.0706 dd=-0.00
+[BEST] NILUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=33.00% trades=70 score=0.2369 dd=-0.00
+[BEST] NKNUSDT 1h A8_vol_break {'n': 10, 'k': 2} ret=103.61% trades=59 score=1.0211 dd=-0.00
+[BEST] NKNUSDT 4h A2_bbands {'n': 40, 'k': 2} ret=73.06% trades=14 score=0.7255 dd=-0.00
+[BEST] NMRUSDT 1h A3_rsi {'n': 16, 'low': 30, 'high': 70} ret=9.18% trades=9 score=0.0803 dd=-0.00
+[BEST] NMRUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=18.85% trades=4 score=0.1868 dd=-0.00
+[BEST] NOTUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=75.20% trades=21 score=0.7466 dd=-0.00
+[BEST] NOTUSDT 4h A5_reversal {'look': 10, 'z': 1} ret=37.50% trades=141 score=0.3228 dd=-0.00
+[BEST] NTRNUSDT 1h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=16.84% trades=17 score=0.1467 dd=-0.00
+[BEST] NTRNUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=43.24% trades=15 score=0.4268 dd=-0.00
+[BEST] NXPCUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=2.82% trades=3 score=0.0237 dd=-0.00
+[BEST] NXPCUSDT 4h A1_ma_cross {'fast': 15, 'slow': 40} ret=13.08% trades=4 score=0.1255 dd=-0.00
+[BEST] OBOLUSDT 1h A8_vol_break {'n': 10, 'k': 1.5} ret=11.35% trades=22 score=0.0853 dd=-0.00
+[BEST] OBOLUSDT 4h A5_reversal {'look': 10, 'z': 0.5} ret=38.14% trades=57 score=0.3062 dd=-0.00
+[BEST] OGNUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=40.77% trades=54 score=0.3940 dd=-0.00
+[BEST] OGNUSDT 4h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=48.83% trades=55 score=0.4679 dd=-0.00
+[BEST] OGUSDT 1h A1_ma_cross {'fast': 15, 'slow': 70} ret=381.67% trades=9 score=3.8143 dd=-0.00
+[BEST] OGUSDT 4h A5_reversal {'look': 30, 'z': 0.5} ret=123.26% trades=211 score=1.1545 dd=-0.00
+[BEST] OLUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=58.00% trades=1 score=0.5780 dd=-0.00
+[BEST] OLUSDT 4h A2_bbands {'n': 30, 'k': 1.5} ret=80.59% trades=8 score=0.7954 dd=-0.00
+[SKIP] OMNIUSDT_1h ݲ
+[SKIP] OMNIUSDT_4h ݲ
+[BEST] OMUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=4.20% trades=12 score=0.0266 dd=-0.00
+[BEST] OMUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=129.87% trades=24 score=1.2898 dd=-0.00
+[BEST] ONDOUSDT 1h A5_reversal {'look': 15, 'z': 1} ret=29.43% trades=189 score=0.2460 dd=-0.00
+[BEST] ONDOUSDT 4h A1_ma_cross {'fast': 20, 'slow': 30} ret=32.34% trades=21 score=0.3156 dd=-0.00
+[BEST] ONEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=9.48% trades=4 score=0.0890 dd=-0.00
+[BEST] ONEUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=41.54% trades=47 score=0.3978 dd=-0.00
+[BEST] ONGUSDT 1h A5_reversal {'look': 25, 'z': 2} ret=14.01% trades=46 score=0.1284 dd=-0.00
+[BEST] ONGUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=23.43% trades=8 score=0.2314 dd=-0.00
+[BEST] ONTUSDT 1h A5_reversal {'look': 30, 'z': 2} ret=7.84% trades=11 score=0.0699 dd=-0.00
+[BEST] ONTUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=22.00% trades=46 score=0.2027 dd=-0.00
+[BEST] OPUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=14.53% trades=3 score=0.1408 dd=-0.00
+[BEST] OPUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=57.14% trades=48 score=0.5534 dd=-0.00
+[BEST] ORCAUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=31.68% trades=5 score=0.3098 dd=-0.00
+[BEST] ORCAUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=89.29% trades=48 score=0.8750 dd=-0.00
+[BEST] ORDIUSDT 1h A5_reversal {'look': 5, 'z': 1} ret=21.35% trades=68 score=0.1605 dd=-0.00
+[BEST] ORDIUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=88.78% trades=42 score=0.8721 dd=-0.00
+[BEST] OXTUSDT 1h A2_bbands {'n': 30, 'k': 2.5} ret=5.57% trades=4 score=0.0526 dd=-0.00
+[BEST] OXTUSDT 4h A5_reversal {'look': 25, 'z': 1.5} ret=10.71% trades=66 score=0.0827 dd=-0.00
+[BEST] PARTIUSDT 1h A5_reversal {'look': 15, 'z': 1.5} ret=8.18% trades=12 score=0.0665 dd=-0.00
+[BEST] PARTIUSDT 4h A5_reversal {'look': 25, 'z': 1.5} ret=24.74% trades=18 score=0.2237 dd=-0.00
+[BEST] PAXGUSDT 1h A4_atr_break {'n': 13, 'm': 2} ret=0.14% trades=1 score=0.0001 dd=-0.00
+[BEST] PAXGUSDT 4h A2_bbands {'n': 50, 'k': 2} ret=0.91% trades=1 score=0.0078 dd=-0.00
+[BEST] PENDLEUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=42.67% trades=6 score=0.4184 dd=-0.00
+[BEST] PENDLEUSDT 4h A1_ma_cross {'fast': 40, 'slow': 160} ret=58.33% trades=2 score=0.5824 dd=-0.00
+[BEST] PENGUUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=6.79% trades=2 score=0.0647 dd=-0.00
+[BEST] PENGUUSDT 4h A1_ma_cross {'fast': 35, 'slow': 100} ret=519.65% trades=5 score=5.1947 dd=-0.00
+[BEST] PEOPLEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=14.27% trades=3 score=0.1382 dd=-0.00
+[BEST] PEOPLEUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=75.54% trades=46 score=0.7381 dd=-0.00
+[BEST] PERPUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=9.59% trades=6 score=0.0876 dd=-0.00
+[BEST] PERPUSDT 4h A1_ma_cross {'fast': 5, 'slow': 70} ret=21.21% trades=11 score=0.2078 dd=-0.00
+[BEST] PHAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=10.06% trades=4 score=0.0949 dd=-0.00
+[BEST] PHAUSDT 4h A1_ma_cross {'fast': 25, 'slow': 60} ret=44.02% trades=8 score=0.4372 dd=-0.00
+[BEST] PHBUSDT 1h A5_reversal {'look': 5, 'z': 1} ret=15.20% trades=73 score=0.0951 dd=-0.00
+[BEST] PHBUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=64.60% trades=18 score=0.6394 dd=-0.00
+[BEST] PIPPINUSDT 1h A5_reversal {'look': 5, 'z': 1} ret=18.00% trades=39 score=0.1301 dd=-0.00
+[BEST] PIPPINUSDT 4h A1_ma_cross {'fast': 35, 'slow': 150} ret=83.53% trades=2 score=0.8344 dd=-0.00
+[BEST] PIXELUSDT 1h A8_vol_break {'n': 20, 'k': 2} ret=63.19% trades=40 score=0.6217 dd=-0.00
+[BEST] PIXELUSDT 4h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=102.83% trades=28 score=1.0178 dd=-0.00
+[SKIP] PLAYUSDT_1h ݲ
+[SKIP] PLAYUSDT_4h ݲ
+[BEST] PLUMEUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=15.00% trades=4 score=0.1442 dd=-0.00
+[BEST] PLUMEUSDT 4h A5_reversal {'look': 20, 'z': 2} ret=37.90% trades=30 score=0.3679 dd=-0.00
+[BEST] PNUTUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=13.21% trades=10 score=0.1194 dd=-0.00
+[BEST] PNUTUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=175.61% trades=46 score=1.7388 dd=-0.00
+[BEST] POLUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=32.41% trades=24 score=0.3179 dd=-0.00
+[BEST] POLUSDT 4h A3_rsi {'n': 14, 'low': 30, 'high': 70} ret=68.23% trades=29 score=0.6716 dd=-0.00
+[BEST] POLYXUSDT 1h A1_ma_cross {'fast': 40, 'slow': 60} ret=30.29% trades=12 score=0.2997 dd=-0.00
+[BEST] POLYXUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=58.15% trades=5 score=0.5795 dd=-0.00
+[BEST] PONKEUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=12.60% trades=14 score=0.1081 dd=-0.00
+[BEST] PONKEUSDT 4h A1_ma_cross {'fast': 40, 'slow': 110} ret=97.04% trades=4 score=0.9687 dd=-0.00
+[BEST] POPCATUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=173.36% trades=17 score=1.7292 dd=-0.00
+[BEST] POPCATUSDT 4h A1_ma_cross {'fast': 30, 'slow': 100} ret=140.10% trades=4 score=1.3993 dd=-0.00
+[BEST] PORT3USDT 1h A1_ma_cross {'fast': 20, 'slow': 50} ret=23.69% trades=1 score=0.2349 dd=-0.00
+[BEST] PORT3USDT 4h A1_ma_cross {'fast': 10, 'slow': 30} ret=73.68% trades=6 score=0.7282 dd=-0.00
+[BEST] PORTALUSDT 1h A2_bbands {'n': 60, 'k': 2.5} ret=55.56% trades=11 score=0.5528 dd=-0.00
+[BEST] PORTALUSDT 4h A4_atr_break {'n': 22, 'm': 1.5} ret=53.74% trades=20 score=0.5300 dd=-0.00
+[BEST] POWRUSDT 1h A5_reversal {'look': 30, 'z': 2} ret=14.59% trades=43 score=0.1350 dd=-0.00
+[BEST] POWRUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=15.63% trades=9 score=0.1526 dd=-0.00
+[BEST] PROMPTUSDT 1h A1_ma_cross {'fast': 35, 'slow': 60} ret=7.83% trades=2 score=0.0751 dd=-0.00
+[BEST] PROMPTUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=63.14% trades=77 score=0.5291 dd=-0.00
+[BEST] PROMUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=75.33% trades=11 score=0.7469 dd=-0.00
+[BEST] PROMUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=114.38% trades=7 score=1.1339 dd=-0.00
+[BEST] PROVEUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=90.28% trades=11 score=0.8877 dd=-0.00
+[SKIP] PROVEUSDT_4h ݲ
+[BEST] PUFFERUSDT 1h A5_reversal {'look': 25, 'z': 0.5} ret=18.58% trades=59 score=0.1100 dd=-0.00
+[BEST] PUFFERUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=43.08% trades=8 score=0.4277 dd=-0.00
+[BEST] PUMPBTCUSDT 1h A1_ma_cross {'fast': 35, 'slow': 50} ret=18.79% trades=3 score=0.1835 dd=-0.00
+[BEST] PUMPBTCUSDT 4h A5_reversal {'look': 25, 'z': 0.5} ret=44.29% trades=62 score=0.3607 dd=-0.00
+[BEST] PUMPUSDT 1h A2_bbands {'n': 30, 'k': 2.5} ret=12.22% trades=2 score=0.1197 dd=-0.00
+[SKIP] PUMPUSDT_4h ݲ
+[BEST] PUNDIXUSDT 1h A1_ma_cross {'fast': 40, 'slow': 190} ret=18.16% trades=3 score=0.1809 dd=-0.00
+[BEST] PUNDIXUSDT 4h A1_ma_cross {'fast': 30, 'slow': 60} ret=94.52% trades=6 score=0.9430 dd=-0.00
+[BEST] PYTHUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=24.46% trades=20 score=0.2393 dd=-0.00
+[BEST] PYTHUSDT 4h A8_vol_break {'n': 30, 'k': 2} ret=55.56% trades=26 score=0.5460 dd=-0.00
+[BEST] QNTUSDT 1h A1_ma_cross {'fast': 40, 'slow': 190} ret=59.54% trades=6 score=0.5939 dd=-0.00
+[BEST] QNTUSDT 4h A1_ma_cross {'fast': 15, 'slow': 140} ret=62.92% trades=2 score=0.6285 dd=-0.00
+[BEST] QTUMUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=4.53% trades=3 score=0.0409 dd=-0.00
+[BEST] QTUMUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=18.49% trades=7 score=0.1823 dd=-0.00
+[BEST] QUICKUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=13.13% trades=3 score=0.1269 dd=-0.00
+[BEST] QUICKUSDT 4h A5_reversal {'look': 10, 'z': 0.5} ret=108.27% trades=231 score=0.9969 dd=-0.00
+[BEST] RAREUSDT 1h A5_reversal {'look': 25, 'z': 0.5} ret=18.79% trades=48 score=0.1267 dd=-0.00
+[BEST] RAREUSDT 4h A3_rsi {'n': 16, 'low': 30, 'high': 70} ret=69.33% trades=18 score=0.6867 dd=-0.00
+[SKIP] RAYSOLUSDT_1h ݲ
+[SKIP] RAYSOLUSDT_4h ݲ
+[BEST] RDNTUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=9.62% trades=3 score=0.0911 dd=-0.00
+[BEST] RDNTUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=46.18% trades=40 score=0.4468 dd=-0.00
+[BEST] REDUSDT 1h A7_donchian {'n': 30} ret=6.63% trades=8 score=0.0561 dd=-0.00
+[BEST] REDUSDT 4h A5_reversal {'look': 20, 'z': 0.5} ret=37.31% trades=61 score=0.2915 dd=-0.00
+[BEST] REIUSDT 1h A3_rsi {'n': 22, 'low': 30, 'high': 70} ret=29.88% trades=19 score=0.2940 dd=-0.00
+[BEST] REIUSDT 4h A2_bbands {'n': 40, 'k': 3} ret=21.55% trades=3 score=0.2144 dd=-0.00
+[BEST] RENDERUSDT 1h A1_ma_cross {'fast': 25, 'slow': 50} ret=28.36% trades=4 score=0.2801 dd=-0.00
+[BEST] RENDERUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=62.87% trades=44 score=0.6123 dd=-0.00
+[BEST] RESOLVUSDT 1h A1_ma_cross {'fast': 40, 'slow': 70} ret=5.14% trades=3 score=0.0476 dd=-0.00
+[BEST] RESOLVUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=46.53% trades=4 score=0.4600 dd=-0.00
+[BEST] REZUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=97.46% trades=58 score=0.9599 dd=-0.00
+[BEST] REZUSDT 4h A4_atr_break {'n': 25, 'm': 1.5} ret=53.36% trades=22 score=0.5254 dd=-0.00
+[BEST] RIFUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=39.98% trades=25 score=0.3803 dd=-0.00
+[BEST] RIFUSDT 4h A1_ma_cross {'fast': 40, 'slow': 120} ret=34.85% trades=4 score=0.3471 dd=-0.00
+[BEST] RLCUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=6.64% trades=5 score=0.0594 dd=-0.00
+[BEST] RLCUSDT 4h A1_ma_cross {'fast': 20, 'slow': 30} ret=26.86% trades=6 score=0.2607 dd=-0.00
+[SKIP] RONINUSDT_1h ݲ
+[SKIP] RONINUSDT_4h ݲ
+[BEST] ROSEUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=24.12% trades=28 score=0.2255 dd=-0.00
+[BEST] ROSEUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=68.81% trades=44 score=0.6716 dd=-0.00
+[BEST] RPLUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=17.52% trades=3 score=0.1707 dd=-0.00
+[BEST] RPLUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=52.60% trades=9 score=0.5227 dd=-0.00
+[BEST] RSRUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=21.38% trades=4 score=0.2080 dd=-0.00
+[BEST] RSRUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=97.01% trades=43 score=0.9540 dd=-0.00
+[BEST] RUNEUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=3.67% trades=3 score=0.0323 dd=-0.00
+[BEST] RUNEUSDT 4h A3_rsi {'n': 30, 'low': 30, 'high': 70} ret=41.96% trades=8 score=0.4166 dd=-0.00
+[BEST] RVNUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=5.20% trades=3 score=0.0475 dd=-0.00
+[BEST] RVNUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=12.41% trades=7 score=0.1149 dd=-0.00
+[BEST] SAFEUSDT 1h A1_ma_cross {'fast': 10, 'slow': 60} ret=49.59% trades=14 score=0.4922 dd=-0.00
+[BEST] SAFEUSDT 4h A1_ma_cross {'fast': 30, 'slow': 80} ret=35.57% trades=5 score=0.3536 dd=-0.00
+[BEST] SAGAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=9.32% trades=3 score=0.0888 dd=-0.00
+[BEST] SAGAUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=61.94% trades=12 score=0.6150 dd=-0.00
+[BEST] SAHARAUSDT 1h A1_ma_cross {'fast': 20, 'slow': 90} ret=5.41% trades=1 score=0.0521 dd=-0.00
+[BEST] SAHARAUSDT 4h A5_reversal {'look': 10, 'z': 0.5} ret=79.08% trades=60 score=0.7106 dd=-0.00
+[BEST] SANDUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=8.37% trades=3 score=0.0793 dd=-0.00
+[BEST] SANDUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=32.38% trades=40 score=0.3088 dd=-0.00
+[BEST] SANTOSUSDT 1h A1_ma_cross {'fast': 40, 'slow': 80} ret=23.21% trades=1 score=0.2302 dd=-0.00
+[BEST] SANTOSUSDT 4h A1_ma_cross {'fast': 40, 'slow': 50} ret=33.08% trades=17 score=0.3245 dd=-0.00
+[BEST] SCRTUSDT 1h A8_vol_break {'n': 60, 'k': 1.5} ret=6.18% trades=11 score=0.0478 dd=-0.00
+[BEST] SCRTUSDT 4h A1_ma_cross {'fast': 25, 'slow': 50} ret=28.00% trades=3 score=0.2761 dd=-0.00
+[BEST] SCRUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=21.87% trades=4 score=0.2129 dd=-0.00
+[BEST] SCRUSDT 4h A1_ma_cross {'fast': 5, 'slow': 150} ret=48.14% trades=4 score=0.4797 dd=-0.00
+[BEST] SEIUSDT 1h A1_ma_cross {'fast': 5, 'slow': 80} ret=67.54% trades=4 score=0.6719 dd=-0.00
+[BEST] SEIUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=133.55% trades=45 score=1.3186 dd=-0.00
+[BEST] SFPUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=10.24% trades=2 score=0.0992 dd=-0.00
+[BEST] SFPUSDT 4h A3_rsi {'n': 30, 'low': 30, 'high': 70} ret=11.52% trades=10 score=0.1115 dd=-0.00
+[BEST] SHELLUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=28.23% trades=2 score=0.2791 dd=-0.00
+[BEST] SHELLUSDT 4h A1_ma_cross {'fast': 15, 'slow': 30} ret=43.72% trades=4 score=0.4320 dd=-0.00
+[BEST] SIGNUSDT 1h A1_ma_cross {'fast': 20, 'slow': 30} ret=6.34% trades=6 score=0.0551 dd=-0.00
+[BEST] SIGNUSDT 4h A1_ma_cross {'fast': 20, 'slow': 40} ret=18.43% trades=4 score=0.1790 dd=-0.00
+[BEST] SIRENUSDT 1h A1_ma_cross {'fast': 40, 'slow': 60} ret=63.11% trades=1 score=0.6292 dd=-0.00
+[BEST] SIRENUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=113.76% trades=10 score=1.1238 dd=-0.00
+[BEST] SKATEUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=9.92% trades=6 score=0.0909 dd=-0.00
+[BEST] SKATEUSDT 4h A5_reversal {'look': 10, 'z': 0.5} ret=58.43% trades=63 score=0.5008 dd=-0.00
+[BEST] SKLUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=119.01% trades=4 score=1.1843 dd=-0.00
+[BEST] SKLUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=118.42% trades=24 score=1.1753 dd=-0.00
+[BEST] SKYAIUSDT 1h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=7.61% trades=13 score=0.0596 dd=-0.00
+[BEST] SKYAIUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=43.90% trades=11 score=0.4238 dd=-0.00
+[BEST] SLERFUSDT 1h A1_ma_cross {'fast': 40, 'slow': 80} ret=28.26% trades=4 score=0.2803 dd=-0.00
+[BEST] SLERFUSDT 4h A8_vol_break {'n': 10, 'k': 2} ret=48.26% trades=44 score=0.4663 dd=-0.00
+[BEST] SLPUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=19.57% trades=6 score=0.1874 dd=-0.00
+[BEST] SLPUSDT 4h A1_ma_cross {'fast': 40, 'slow': 150} ret=37.31% trades=2 score=0.3722 dd=-0.00
+[BEST] SNXUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=16.10% trades=5 score=0.1546 dd=-0.00
+[BEST] SNXUSDT 4h A7_donchian {'n': 15} ret=24.03% trades=48 score=0.2225 dd=-0.00
+[BEST] SOLUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=12.30% trades=3 score=0.1186 dd=-0.00
+[BEST] SOLUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=35.11% trades=12 score=0.3347 dd=-0.00
+[BEST] SOLVUSDT 1h A2_bbands {'n': 20, 'k': 1.5} ret=7.36% trades=12 score=0.0583 dd=-0.00
+[BEST] SOLVUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=228.93% trades=250 score=2.1966 dd=-0.00
+[BEST] SONICUSDT 1h A5_reversal {'look': 30, 'z': 1.5} ret=4.53% trades=20 score=0.0186 dd=-0.00
+[BEST] SONICUSDT 4h A1_ma_cross {'fast': 40, 'slow': 90} ret=35.99% trades=5 score=0.3580 dd=-0.00
+[BEST] SOONUSDT 1h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=168.62% trades=10 score=1.6735 dd=-0.00
+[BEST] SOONUSDT 4h A8_vol_break {'n': 60, 'k': 1} ret=149.67% trades=15 score=1.4769 dd=-0.00
+[BEST] SOPHUSDT 1h A5_reversal {'look': 15, 'z': 2} ret=0.99% trades=4 score=0.0048 dd=-0.00
+[BEST] SOPHUSDT 4h A3_rsi {'n': 16, 'low': 30, 'high': 70} ret=20.58% trades=5 score=0.1992 dd=-0.00
+[BEST] SPELLUSDT 1h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=15.65% trades=13 score=0.1399 dd=-0.00
+[BEST] SPELLUSDT 4h A2_bbands {'n': 20, 'k': 1.5} ret=10.61% trades=37 score=0.0924 dd=-0.00
+[BEST] SPKUSDT 1h A5_reversal {'look': 30, 'z': 1.5} ret=2.20% trades=8 score=0.0118 dd=-0.00
+[BEST] SPKUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=357.48% trades=11 score=3.5597 dd=-0.00
+[BEST] SPXUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=21.58% trades=6 score=0.2075 dd=-0.00
+[BEST] SPXUSDT 4h A6_macd {'fast': 12, 'slow': 20, 'signal': 9} ret=233.43% trades=44 score=2.3179 dd=-0.00
+[BEST] SQDUSDT 1h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=3.74% trades=1 score=0.0361 dd=-0.00
+[BEST] SQDUSDT 4h A8_vol_break {'n': 60, 'k': 1} ret=46.99% trades=13 score=0.4528 dd=-0.00
+[BEST] SSVUSDT 1h A1_ma_cross {'fast': 15, 'slow': 50} ret=18.58% trades=2 score=0.1826 dd=-0.00
+[BEST] SSVUSDT 4h A1_ma_cross {'fast': 35, 'slow': 70} ret=57.36% trades=8 score=0.5704 dd=-0.00
+[BEST] STEEMUSDT 1h A1_ma_cross {'fast': 25, 'slow': 30} ret=9.48% trades=5 score=0.0884 dd=-0.00
+[BEST] STEEMUSDT 4h A1_ma_cross {'fast': 25, 'slow': 100} ret=13.66% trades=4 score=0.1349 dd=-0.00
+[BEST] STGUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=18.39% trades=3 score=0.1794 dd=-0.00
+[BEST] STGUSDT 4h A3_rsi {'n': 30, 'low': 30, 'high': 70} ret=6.76% trades=11 score=0.0636 dd=-0.00
+[BEST] STORJUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=11.49% trades=36 score=0.0992 dd=-0.00
+[BEST] STORJUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=19.14% trades=15 score=0.1859 dd=-0.00
+[BEST] STOUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=14.95% trades=14 score=0.1316 dd=-0.00
+[BEST] STOUSDT 4h A5_reversal {'look': 5, 'z': 0.5} ret=65.98% trades=68 score=0.5690 dd=-0.00
+[BEST] STRKUSDT 1h A5_reversal {'look': 20, 'z': 2} ret=16.48% trades=13 score=0.1547 dd=-0.00
+[BEST] STRKUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=48.90% trades=21 score=0.4812 dd=-0.00
+[BEST] STXUSDT 1h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=9.74% trades=12 score=0.0821 dd=-0.00
+[BEST] STXUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=75.92% trades=41 score=0.7438 dd=-0.00
+[BEST] SUIUSDT 1h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=10.68% trades=7 score=0.0979 dd=-0.00
+[BEST] SUIUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=130.03% trades=41 score=1.2849 dd=-0.00
+[BEST] SUNUSDT 1h A1_ma_cross {'fast': 20, 'slow': 40} ret=12.44% trades=2 score=0.1212 dd=-0.00
+[BEST] SUNUSDT 4h A8_vol_break {'n': 30, 'k': 1.5} ret=20.69% trades=57 score=0.1858 dd=-0.00
+[BEST] SUPERUSDT 1h A1_ma_cross {'fast': 30, 'slow': 40} ret=67.72% trades=11 score=0.6707 dd=-0.00
+[BEST] SUPERUSDT 4h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=143.55% trades=43 score=1.4194 dd=-0.00
+[BEST] SUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=14.70% trades=14 score=0.1292 dd=-0.00
+[BEST] SUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=53.10% trades=43 score=0.5149 dd=-0.00
+[BEST] SUSHIUSDT 1h A1_ma_cross {'fast': 25, 'slow': 50} ret=40.24% trades=3 score=0.3997 dd=-0.00
+[BEST] SUSHIUSDT 4h A6_macd {'fast': 12, 'slow': 17, 'signal': 9} ret=60.85% trades=45 score=0.5916 dd=-0.00
+[BEST] SWARMSUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=32.71% trades=6 score=0.3189 dd=-0.00
+[BEST] SWARMSUSDT 4h A7_donchian {'n': 10} ret=50.94% trades=12 score=0.4937 dd=-0.00
+[BEST] SWELLUSDT 1h A8_vol_break {'n': 10, 'k': 1} ret=36.26% trades=30 score=0.3231 dd=-0.00
+[BEST] SWELLUSDT 4h A5_reversal {'look': 20, 'z': 1.5} ret=115.05% trades=60 score=1.1283 dd=-0.00
+[BEST] SXPUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=7.35% trades=10 score=0.0607 dd=-0.00
+[BEST] SXPUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=5.39% trades=9 score=0.0506 dd=-0.00
+[BEST] SXTUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=3.70% trades=11 score=0.0230 dd=-0.00
+[BEST] SXTUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=19.02% trades=21 score=0.1626 dd=-0.00
+[BEST] SYNUSDT 1h A1_ma_cross {'fast': 5, 'slow': 50} ret=4.21% trades=2 score=0.0389 dd=-0.00
+[BEST] SYNUSDT 4h A1_ma_cross {'fast': 20, 'slow': 140} ret=74.23% trades=3 score=0.7412 dd=-0.00
+[BEST] SYRUPUSDT 1h A1_ma_cross {'fast': 20, 'slow': 40} ret=8.40% trades=3 score=0.0795 dd=-0.00
+[BEST] SYRUPUSDT 4h A5_reversal {'look': 30, 'z': 1.5} ret=26.93% trades=12 score=0.2535 dd=-0.00
+[BEST] SYSUSDT 1h A1_ma_cross {'fast': 15, 'slow': 40} ret=7.31% trades=4 score=0.0673 dd=-0.00
+[BEST] SYSUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=92.68% trades=6 score=0.9244 dd=-0.00
+[BEST] TACUSDT 1h A5_reversal {'look': 15, 'z': 0.5} ret=90.14% trades=76 score=0.8033 dd=-0.00
+[SKIP] TACUSDT_4h ݲ
+[BEST] TAGUSDT 1h A1_ma_cross {'fast': 35, 'slow': 60} ret=65.90% trades=5 score=0.6526 dd=-0.00
+[BEST] TAGUSDT 4h A5_reversal {'look': 15, 'z': 0.5} ret=188.52% trades=66 score=1.7970 dd=-0.00
+[BEST] TAIKOUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=17.60% trades=9 score=0.1646 dd=-0.00
+[BEST] TAIKOUSDT 4h A7_donchian {'n': 10} ret=44.42% trades=52 score=0.4249 dd=-0.00
+[BEST] TANSSIUSDT 1h A5_reversal {'look': 20, 'z': 1} ret=14.06% trades=26 score=0.1075 dd=-0.00
+[SKIP] TANSSIUSDT_4h ݲ
+[BEST] TAOUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=100.81% trades=9 score=1.0040 dd=-0.00
+[BEST] TAOUSDT 4h A1_ma_cross {'fast': 30, 'slow': 170} ret=59.65% trades=2 score=0.5958 dd=-0.00
+[BEST] TAUSDT 1h A1_ma_cross {'fast': 30, 'slow': 50} ret=22.95% trades=1 score=0.2276 dd=-0.00
+[SKIP] TAUSDT_4h ݲ
+[BEST] THETAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 170} ret=33.23% trades=6 score=0.3308 dd=-0.00
+[BEST] THETAUSDT 4h A6_macd {'fast': 10, 'slow': 17, 'signal': 9} ret=58.28% trades=43 score=0.5667 dd=-0.00
+[BEST] THEUSDT 1h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=28.79% trades=11 score=0.2739 dd=-0.00
+[BEST] THEUSDT 4h A2_bbands {'n': 20, 'k': 1.5} ret=98.03% trades=50 score=0.9618 dd=-0.00
+[BEST] TIAUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=52.21% trades=54 score=0.5084 dd=-0.00
+[BEST] TIAUSDT 4h A6_macd {'fast': 8, 'slow': 20, 'signal': 9} ret=24.95% trades=48 score=0.2315 dd=-0.00
+[BEST] TLMUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=6.11% trades=3 score=0.0560 dd=-0.00
+[BEST] TLMUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=33.92% trades=6 score=0.3313 dd=-0.00
+[BEST] TNSRUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=36.06% trades=23 score=0.3547 dd=-0.00
+[BEST] TNSRUSDT 4h A1_ma_cross {'fast': 40, 'slow': 80} ret=32.83% trades=5 score=0.3262 dd=-0.00
+[SKIP] TOKENUSDT_1h ݲ
+[SKIP] TOKENUSDT_4h ݲ
+[BEST] TONUSDT 1h A1_ma_cross {'fast': 40, 'slow': 60} ret=37.21% trades=12 score=0.3689 dd=-0.00
+[BEST] TONUSDT 4h A1_ma_cross {'fast': 15, 'slow': 40} ret=11.94% trades=15 score=0.1137 dd=-0.00
+[BEST] TOWNSUSDT 1h A6_macd {'fast': 8, 'slow': 26, 'signal': 9} ret=11.72% trades=10 score=0.1029 dd=-0.00
+[SKIP] TOWNSUSDT_4h ݲ
+[BEST] TRBUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=10.73% trades=9 score=0.0958 dd=-0.00
+[BEST] TRBUSDT 4h A3_rsi {'n': 18, 'low': 30, 'high': 70} ret=89.40% trades=20 score=0.8866 dd=-0.00
+[BEST] TREEUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=20.48% trades=15 score=0.1857 dd=-0.00
+[SKIP] TREEUSDT_4h ݲ
+[BEST] TRUMPUSDT 1h A5_reversal {'look': 20, 'z': 2} ret=5.83% trades=9 score=0.0468 dd=-0.00
+[BEST] TRUMPUSDT 4h A3_rsi {'n': 10, 'low': 30, 'high': 70} ret=97.91% trades=44 score=0.9628 dd=-0.00
+[BEST] TRUUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=8.87% trades=4 score=0.0830 dd=-0.00
+[BEST] TRUUSDT 4h A8_vol_break {'n': 40, 'k': 2} ret=61.16% trades=24 score=0.6028 dd=-0.00
+[BEST] TRXUSDT 1h A1_ma_cross {'fast': 15, 'slow': 50} ret=34.71% trades=14 score=0.3434 dd=-0.00
+[BEST] TRXUSDT 4h A1_ma_cross {'fast': 10, 'slow': 40} ret=21.86% trades=17 score=0.2123 dd=-0.00
+[SKIP] TSTUSDT_1h ݲ
+[SKIP] TSTUSDT_4h ݲ
+[BEST] TURBOUSDT 1h A1_ma_cross {'fast': 35, 'slow': 50} ret=146.63% trades=7 score=1.4630 dd=-0.00
+[BEST] TURBOUSDT 4h A1_ma_cross {'fast': 30, 'slow': 90} ret=228.06% trades=3 score=2.2792 dd=-0.00
+[BEST] TUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=51.70% trades=27 score=0.5100 dd=-0.00
+[BEST] TUSDT 4h A6_macd {'fast': 10, 'slow': 20, 'signal': 9} ret=66.82% trades=39 score=0.6536 dd=-0.00
+[BEST] TUTUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=3.96% trades=18 score=0.0167 dd=-0.00
+[BEST] TUTUSDT 4h A2_bbands {'n': 60, 'k': 3} ret=22.44% trades=1 score=0.2231 dd=-0.00
+[BEST] TWTUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=6.83% trades=4 score=0.0632 dd=-0.00
+[BEST] TWTUSDT 4h A4_atr_break {'n': 10, 'm': 1.5} ret=5.12% trades=8 score=0.0483 dd=-0.00
+[BEST] UMAUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=48.26% trades=24 score=0.4719 dd=-0.00
+[BEST] UMAUSDT 4h A5_reversal {'look': 10, 'z': 1.5} ret=42.53% trades=64 score=0.4012 dd=-0.00
+[BEST] UNIUSDT 1h A1_ma_cross {'fast': 30, 'slow': 60} ret=56.90% trades=37 score=0.5655 dd=-0.00
+[BEST] UNIUSDT 4h A6_macd {'fast': 10, 'slow': 26, 'signal': 9} ret=64.44% trades=38 score=0.6302 dd=-0.00
+[BEST] USDCUSDT 1h A1_ma_cross {'fast': 25, 'slow': 80} ret=-0.10% trades=1 score=-0.0023 dd=-0.00
+[BEST] USDCUSDT 4h A4_atr_break {'n': 22, 'm': 2.5} ret=-0.10% trades=1 score=-0.0014 dd=-0.00
+[BEST] USELESSUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=43.67% trades=3 score=0.4316 dd=-0.00
+[SKIP] USELESSUSDT_4h ݲ
+[BEST] USTCUSDT 1h A5_reversal {'look': 10, 'z': 1} ret=24.92% trades=92 score=0.1978 dd=-0.00
+[BEST] USTCUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=17.36% trades=11 score=0.1591 dd=-0.00
+[BEST] USUALUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=11.64% trades=3 score=0.1119 dd=-0.00
+[BEST] USUALUSDT 4h A2_bbands {'n': 20, 'k': 2.5} ret=29.37% trades=12 score=0.2892 dd=-0.00
+[BEST] UXLINKUSDT 1h A1_ma_cross {'fast': 5, 'slow': 70} ret=6.21% trades=2 score=0.0589 dd=-0.00
+[BEST] UXLINKUSDT 4h A8_vol_break {'n': 50, 'k': 1.5} ret=13.13% trades=47 score=0.1139 dd=-0.00
+[BEST] VANAUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=5.61% trades=4 score=0.0510 dd=-0.00
+[BEST] VANAUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=71.24% trades=23 score=0.7039 dd=-0.00
+[BEST] VANRYUSDT 1h A5_reversal {'look': 5, 'z': 1} ret=13.69% trades=47 score=0.0772 dd=-0.00
+[BEST] VANRYUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=69.76% trades=22 score=0.6895 dd=-0.00
+[BEST] VELODROMEUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=39.73% trades=21 score=0.3918 dd=-0.00
+[BEST] VELODROMEUSDT 4h A2_bbands {'n': 40, 'k': 2.5} ret=56.38% trades=9 score=0.5605 dd=-0.00
+[BEST] VELVETUSDT 1h A1_ma_cross {'fast': 10, 'slow': 30} ret=78.61% trades=2 score=0.7830 dd=-0.00
+[SKIP] VELVETUSDT_4h ݲ
+[BEST] VETUSDT 1h A1_ma_cross {'fast': 5, 'slow': 100} ret=21.96% trades=10 score=0.2168 dd=-0.00
+[BEST] VETUSDT 4h A1_ma_cross {'fast': 40, 'slow': 130} ret=25.05% trades=3 score=0.2492 dd=-0.00
+[BEST] VICUSDT 1h A5_reversal {'look': 10, 'z': 0.5} ret=134.26% trades=190 score=1.2595 dd=-0.00
+[BEST] VICUSDT 4h A4_atr_break {'n': 22, 'm': 2} ret=94.41% trades=7 score=0.9415 dd=-0.00
+[BEST] VINEUSDT 1h A8_vol_break {'n': 20, 'k': 2} ret=15.66% trades=8 score=0.1465 dd=-0.00
+[BEST] VINEUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=231.47% trades=47 score=2.2972 dd=-0.00
+[BEST] VIRTUALUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=262.02% trades=27 score=2.6132 dd=-0.00
+[BEST] VIRTUALUSDT 4h A1_ma_cross {'fast': 40, 'slow': 100} ret=187.17% trades=4 score=1.8700 dd=-0.00
+[BEST] VOXELUSDT 1h A2_bbands {'n': 60, 'k': 1.5} ret=308.42% trades=37 score=3.0748 dd=-0.00
+[BEST] VOXELUSDT 4h A8_vol_break {'n': 20, 'k': 1} ret=452.99% trades=98 score=4.4936 dd=-0.00
+[BEST] VTHOUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=7.39% trades=5 score=0.0676 dd=-0.00
+[BEST] VTHOUSDT 4h A5_reversal {'look': 30, 'z': 2} ret=9.09% trades=29 score=0.0802 dd=-0.00
+[BEST] VVVUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=39.87% trades=8 score=0.3879 dd=-0.00
+[BEST] VVVUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=31.10% trades=8 score=0.2998 dd=-0.00
+[BEST] WALUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=10.66% trades=10 score=0.0939 dd=-0.00
+[BEST] WALUSDT 4h A3_rsi {'n': 8, 'low': 30, 'high': 70} ret=24.33% trades=17 score=0.2210 dd=-0.00
+[BEST] WAXPUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=18.33% trades=58 score=0.1686 dd=-0.00
+[BEST] WAXPUSDT 4h A3_rsi {'n': 28, 'low': 30, 'high': 70} ret=17.25% trades=6 score=0.1703 dd=-0.00
+[BEST] WCTUSDT 1h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=16.59% trades=12 score=0.1506 dd=-0.00
+[BEST] WCTUSDT 4h A1_ma_cross {'fast': 10, 'slow': 50} ret=17.76% trades=2 score=0.1749 dd=-0.00
+[BEST] WIFUSDT 1h A1_ma_cross {'fast': 5, 'slow': 40} ret=11.10% trades=4 score=0.1053 dd=-0.00
+[BEST] WIFUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=146.44% trades=44 score=1.4480 dd=-0.00
+[BEST] WLDUSDT 1h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=11.42% trades=11 score=0.1002 dd=-0.00
+[BEST] WLDUSDT 4h A1_ma_cross {'fast': 20, 'slow': 40} ret=18.44% trades=3 score=0.1804 dd=-0.00
+[BEST] WOOUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=87.37% trades=9 score=0.8696 dd=-0.00
+[BEST] WOOUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=34.60% trades=68 score=0.3208 dd=-0.00
+[BEST] WUSDT 1h A1_ma_cross {'fast': 10, 'slow': 110} ret=37.49% trades=7 score=0.3730 dd=-0.00
+[BEST] WUSDT 4h A1_ma_cross {'fast': 5, 'slow': 60} ret=26.88% trades=12 score=0.2644 dd=-0.00
+[BEST] XAIUSDT 1h A1_ma_cross {'fast': 40, 'slow': 170} ret=38.36% trades=4 score=0.3826 dd=-0.00
+[BEST] XAIUSDT 4h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=62.19% trades=14 score=0.6167 dd=-0.00
+[BEST] XCNUSDT 1h A5_reversal {'look': 25, 'z': 1} ret=57.03% trades=175 score=0.5256 dd=-0.00
+[BEST] XCNUSDT 4h A2_bbands {'n': 40, 'k': 1.5} ret=86.10% trades=15 score=0.8554 dd=-0.00
+[BEST] XLMUSDT 1h A1_ma_cross {'fast': 40, 'slow': 200} ret=63.01% trades=5 score=0.6288 dd=-0.00
+[BEST] XLMUSDT 4h A1_ma_cross {'fast': 25, 'slow': 60} ret=88.93% trades=8 score=0.8863 dd=-0.00
+[SKIP] XMRUSDT_1h ݲ
+[SKIP] XMRUSDT_4h ݲ
+[SKIP] XNYUSDT_1h ݲ
+[SKIP] XNYUSDT_4h ݲ
+[BEST] XRPUSDT 1h A2_bbands {'n': 30, 'k': 2} ret=6.79% trades=6 score=0.0603 dd=-0.00
+[BEST] XRPUSDT 4h A2_bbands {'n': 10, 'k': 1.5} ret=43.21% trades=61 score=0.4095 dd=-0.00
+[BEST] XTZUSDT 1h A1_ma_cross {'fast': 25, 'slow': 50} ret=10.98% trades=2 score=0.1067 dd=-0.00
+[BEST] XTZUSDT 4h A1_ma_cross {'fast': 10, 'slow': 40} ret=97.52% trades=3 score=0.9706 dd=-0.00
+[BEST] XVGUSDT 1h A1_ma_cross {'fast': 40, 'slow': 200} ret=65.87% trades=3 score=0.6579 dd=-0.00
+[BEST] XVGUSDT 4h A1_ma_cross {'fast': 40, 'slow': 70} ret=57.51% trades=6 score=0.5726 dd=-0.00
+[BEST] XVSUSDT 1h A1_ma_cross {'fast': 10, 'slow': 90} ret=22.25% trades=14 score=0.2188 dd=-0.00
+[BEST] XVSUSDT 4h A1_ma_cross {'fast': 35, 'slow': 60} ret=34.13% trades=7 score=0.3388 dd=-0.00
+[SKIP] YALAUSDT_1h ݲ
+[SKIP] YALAUSDT_4h ݲ
+[BEST] YFIUSDT 1h A1_ma_cross {'fast': 10, 'slow': 50} ret=32.25% trades=17 score=0.3181 dd=-0.00
+[BEST] YFIUSDT 4h A6_macd {'fast': 12, 'slow': 26, 'signal': 9} ret=27.44% trades=39 score=0.2598 dd=-0.00
+[BEST] YGGUSDT 1h A5_reversal {'look': 5, 'z': 1.5} ret=18.28% trades=21 score=0.1665 dd=-0.00
+[BEST] YGGUSDT 4h A8_vol_break {'n': 20, 'k': 2} ret=20.35% trades=36 score=0.1902 dd=-0.00
+[SKIP] ZECUSDT_1h ݲ
+[SKIP] ZECUSDT_4h ݲ
+[BEST] ZENUSDT 1h A5_reversal {'look': 20, 'z': 1.5} ret=5.78% trades=12 score=0.0425 dd=-0.00
+[BEST] ZENUSDT 4h A3_rsi {'n': 14, 'low': 30, 'high': 70} ret=9.88% trades=30 score=0.0877 dd=-0.00
+[BEST] ZEREBROUSDT 1h A5_reversal {'look': 30, 'z': 2} ret=7.38% trades=10 score=0.0611 dd=-0.00
+[BEST] ZEREBROUSDT 4h A2_bbands {'n': 40, 'k': 3} ret=163.09% trades=5 score=1.6291 dd=-0.00
+[BEST] ZETAUSDT 1h A1_ma_cross {'fast': 10, 'slow': 50} ret=23.35% trades=16 score=0.2293 dd=-0.00
+[BEST] ZETAUSDT 4h A2_bbands {'n': 30, 'k': 2} ret=44.44% trades=22 score=0.4363 dd=-0.00
+[BEST] ZILUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=22.90% trades=24 score=0.2229 dd=-0.00
+[BEST] ZILUSDT 4h A3_rsi {'n': 26, 'low': 30, 'high': 70} ret=13.99% trades=10 score=0.1362 dd=-0.00
+[BEST] ZKJUSDT 1h A3_rsi {'n': 20, 'low': 30, 'high': 70} ret=73.07% trades=14 score=0.7272 dd=-0.00
+[BEST] ZKJUSDT 4h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=84.39% trades=21 score=0.8362 dd=-0.00
+[BEST] ZKUSDT 1h A1_ma_cross {'fast': 10, 'slow': 40} ret=59.04% trades=18 score=0.5857 dd=-0.00
+[BEST] ZKUSDT 4h A6_macd {'fast': 8, 'slow': 17, 'signal': 9} ret=44.74% trades=14 score=0.4283 dd=-0.00
+[BEST] ZORAUSDT 1h A1_ma_cross {'fast': 15, 'slow': 30} ret=90.09% trades=2 score=0.8977 dd=-0.00
+[BEST] ZORAUSDT 4h A1_ma_cross {'fast': 25, 'slow': 30} ret=1332.23% trades=4 score=13.3170 dd=-0.00
+[BEST] ZRCUSDT 1h A5_reversal {'look': 30, 'z': 1.5} ret=8.53% trades=12 score=0.0700 dd=-0.00
+[BEST] ZRCUSDT 4h A1_ma_cross {'fast': 40, 'slow': 100} ret=85.80% trades=4 score=0.8565 dd=-0.00
+[BEST] ZROUSDT 1h A1_ma_cross {'fast': 5, 'slow': 80} ret=65.16% trades=13 score=0.6482 dd=-0.00
+[BEST] ZROUSDT 4h A2_bbands {'n': 30, 'k': 2.5} ret=32.21% trades=14 score=0.3169 dd=-0.00
+[BEST] ZRXUSDT 1h A1_ma_cross {'fast': 5, 'slow': 30} ret=8.33% trades=4 score=0.0782 dd=-0.00
+[BEST] ZRXUSDT 4h A1_ma_cross {'fast': 40, 'slow': 60} ret=25.93% trades=10 score=0.2556 dd=-0.00
+Traceback (most recent call last):
+  File "D:\quant_system_pro (3)\quant_system_pro\optimizer\a1a8_optimizer_and_deploy.py", line 225, in <module>
+    main()
+  File "D:\quant_system_pro (3)\quant_system_pro\optimizer\a1a8_optimizer_and_deploy.py", line 208, in main
+    save_best_params_to_db(args.db, best_items)
+  File "D:\quant_system_pro (3)\quant_system_pro\utils\param_loader.py", line 37, in save_best_params_to_db
+    cur.execute(f"""INSERT INTO {BEST_TABLE}(symbol,timeframe,strategy,params_json,metric_return,metric_trades,updated_at)
+sqlite3.OperationalError: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint

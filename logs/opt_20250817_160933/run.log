@@ -1,0 +1,9 @@
+[INFO] ROOT= D:\quant_system_pro (3)\quant_system_pro
+[INFO] DB= D:\quant_system_v2\data\market_data.db
+[PARAMS] days=90 min_trades=5 max_dd=0.9 tfs=['1h', '4h']
+[DB] OK
+[OK] import pandas
+[OK] import ccxt
+[OK] symbols from DB: 470
+[OK] binance/swap match: 454
+[STEP] 运行寻优： C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe D:\quant_system_pro (3)\quant_system_pro\optimizer\a1a8_optimizer_and_deploy.py --db D:\quant_system_v2\data\market_data.db --symbols-file D:\quant_system_pro (3)\quant_system_pro\results\symbols_whitelist.txt --timeframes 1h 4h --days 90 --min-trades 5 --max-dd 0.9 --deploy --json D:\quant_system_pro (3)\quant_system_pro\deploy\live_best_params.json

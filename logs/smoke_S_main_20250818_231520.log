@@ -1,0 +1,4 @@
+23:15:20 | [36m[36m[A6-S][0m 启动 S级冒烟 · BTCUSDT 30m 30d[0m
+23:21:40 | [32m[36m[A6-S][0m 快照已生成 → D:\quant_system_v2\data\market_data_snapshot.db  (379.86s)[0m
+23:22:34 | [36m[36m[A6-S][0m 启动采集: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u tools/rt_updater_with_banner.py --db D:\quant_system_v2\data\market_data.db --backfill-days 365 --max-workers 8 --interval 30[0m
+23:22:34 | [36m[36m[A6-S][0m 回测启动（实时进度）: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u backtest/backtest_pro.py --db D:\quant_system_v2\data\market_data_snapshot.db --symbols BTCUSDT --tfs 30m --days 30 --topk 8 --outdir results[0m

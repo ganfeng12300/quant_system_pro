@@ -1,0 +1,5 @@
+[A6-SHIM] pandas.DataFrame.to_csv ÒÑ°²×°ÐÞ¶©¹³×Ó£¨½öÀ¹½Ø a6_strategy_scores*£©
+[38;5;51m¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[[0m
+[WARN] Æô¶¯ºá·ù´òÓ¡Ê§°Ü£º 'gbk' codec can't encode character '\U0001f680' in position 12: illegal multibyte sequence
+[A6-SHIM] pandas.DataFrame.to_csv ÒÑ°²×°ÐÞ¶©¹³×Ó£¨½öÀ¹½Ø a6_strategy_scores*£©
+--------------- ÊµÊ±ÊØ»¤Æô¶¯ | 470 symbols | 8 ²¢·¢ | ¼ä¸ô 30s ----------------

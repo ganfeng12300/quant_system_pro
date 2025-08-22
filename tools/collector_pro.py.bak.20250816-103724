@@ -1,0 +1,135 @@
+# -*- coding: utf-8 -*-
+"""
+采集层：覆盖率体检、历史补齐、实时守护（可选）
+若你已有数据，可直接跳过。此工具兼容 Binance 公网 REST 回补。
+"""
+import argparse, time, os, pandas as pd, requests
+from tools.db_util import connect_ro, connect_rw, ensure_index, table_exists, console
+from tools.config import get_db_path
+
+BINANCE_KLINES="https://fapi.binance.com/fapi/v1/continuousKlines"  # 合约连续永续
+SYMBOLS_DEFAULT=["BTCUSDT","ETHUSDT","SOLUSDT","BNBUSDT","XRPUSDT","ADAUSDT","DOGEUSDT","LTCUSDT"]
+TFS=["5m","15m","30m","1h","2h","4h","1d"]
+
+def _write_df(con, table, df):
+    if df is None or df.empty: return 0
+    df.to_sql(table, con, if_exists="append", index=False)
+    ensure_index(con, table); return len(df)
+
+def _fetch_binance(sym, tf, start_ms=None, end_ms=None, limit=1500):
+    params={"pair":sym,"contractType":"PERPETUAL","interval":tf,"limit":limit}
+    if start_ms: params["startTime"]=int(start_ms)
+    if end_ms: params["endTime"]=int(end_ms)
+    r=requests.get(BINANCE_KLINES, params=params, timeout=20); r.raise_for_status()
+    arr=r.json()
+    if not arr: return None
+    rows=[]
+    for k in arr:
+        ts,op,hi,lo,cl,vol = int(k[0]), float(k[1]), float(k[2]), float(k[3]), float(k[4]), float(k[7])
+        rows.append((ts,op,hi,lo,cl,vol))
+    return pd.DataFrame(rows, columns=["ts","open","high","low","close","volume"])
+
+def coverage_report(db, days=365, symbols=None):
+    symbols = symbols or SYMBOLS_DEFAULT
+    rep=[]
+    with connect_ro(db) as con:
+        for s in symbols:
+            for tf in TFS:
+                tb=f"{s}_{tf}"
+                if not table_exists(con, tb):
+                    rep.append((s,tf,0,None))
+                    continue
+                n = con.execute(f'SELECT COUNT(*), MAX(ts) FROM "{tb}"').fetchone()
+                rep.append((s,tf,n[0],n[1]))
+    df=pd.DataFrame(rep, columns=["Symbol","Timeframe","Rows","MaxTS"])
+    console.print(df)
+    return df
+
+def backfill(db, symbols=None, days=365):
+    symbols = symbols or SYMBOLS_DEFAULT
+    since = int(time.time()*1000) - days*24*3600*1000
+    with connect_rw(db) as con:
+        for s in symbols:
+            for tf in TFS:
+                tb=f"{s}_{tf}"
+                last=None
+                if table_exists(con, tb):
+                    r=con.execute(f'SELECT MAX(ts) FROM "{tb}"').fetchone()
+                    last = (r[0] or since) - 1
+                else:
+                    con.execute(f'CREATE TABLE IF NOT EXISTS "{tb}" (ts INTEGER PRIMARY KEY, open REAL, high REAL, low REAL, close REAL, volume REAL)')
+                cur=last or since
+                while True:
+                    df=_fetch_binance(s, tf, start_ms=cur, end_ms=None, limit=1500)
+                    if df is None or df.empty: break
+                    max_ts_row = None
+        try:
+            max_ts_row = con.execute(f"SELECT MAX(ts) FROM \"{tb}\"").fetchone()
+        except Exception:
+            max_ts_row = (None,)
+        max_ts = (max_ts_row[0] if max_ts_row and max_ts_row[0] is not None else -1)
+        # 仅保留新数据 + ts 去重
+        if df is not None and not df.empty:
+            if "ts" in df.columns:
+                df = df[df["ts"] > max_ts]
+                if not df.empty:
+                    df = df.drop_duplicates(subset=["ts"])
+        # 空集短路，避免无意义写入
+        if df is None or df.empty:
+            wrote = 0
+        else:
+            max_ts_row = None
+        try:
+            max_ts_row = con.execute(f"SELECT MAX(ts) FROM \"{tb}\"").fetchone()
+        except Exception:
+            max_ts_row = (None,)
+        max_ts = (max_ts_row[0] if max_ts_row and max_ts_row[0] is not None else -1)
+        # 仅保留新数据 + ts 去重
+        if df is not None and not df.empty:
+            if "ts" in df.columns:
+                df = df[df["ts"] > max_ts]
+                if not df.empty:
+                    df = df.drop_duplicates(subset=["ts"])
+        # 空集短路，避免无意义写入
+        if df is None or df.empty:
+            wrote = 0
+        else:
+            wrote = _write_df(con, tb, df)
+cur=int(df["ts"].iloc[-1])+1
+console.print(f"[green]{s}-{tf}[/] backfilled +{wrote}, up to {cur}")
+if wrote<1500: break
+
+def daemon(db):
+    # 轻量轮询守护（30s），只对已有表做增量
+    while True:
+        try:
+            with connect_ro(db) as con:
+                tbs=[r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()]
+            for tb in tbs:
+                if "_" not in tb: continue
+                s,tf=tb.split("_",1)
+                with connect_rw(db) as cw:
+                    r=cw.execute(f'SELECT MAX(ts) FROM "{tb}"').fetchone()
+                    cur=(r[0] or 0)+1
+                    df=_fetch_binance(s, tf, start_ms=cur, end_ms=None, limit=1500)
+                    if df is not None and not df.empty:
+                        wrote=_write_df(cw, tb, df)
+                        console.print(f"[cyan]{tb}[/] live +{wrote}")
+        except Exception as e:
+            console.print(f"[red]daemon error[/] {e}")
+        time.sleep(30)
+
+if __name__=="__main__":
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--db", default=get_db_path())
+    ap.add_argument("--symbols-file")
+    ap.add_argument("--backfill-days", type=int, default=365)
+    ap.add_argument("--start-daemon", type=int, default=0)
+    args=ap.parse_args()
+    syms=None
+    if args.symbols_file and os.path.exists(args.symbols_file):
+        with open(args.symbols_file,"r",encoding="utf-8") as f:
+            syms=[x.strip().upper() for x in f if x.strip()]
+    coverage_report(args.db, days=args.backfill_days, symbols=syms)
+    backfill(args.db, symbols=syms, days=args.backfill_days)
+    if args.start_daemon: daemon(args.db)

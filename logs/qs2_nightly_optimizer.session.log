@@ -1,0 +1,198 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20250818125617
+用户名: DESKTOP-P2V295S\Administrator
+RunAs 用户: DESKTOP-P2V295S\Administrator
+配置名称: 
+计算机: DESKTOP-P2V295S (Microsoft Windows NT 10.0.26100.0)
+主机应用程序: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+进程 ID: 34008
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS D:\quant_system_pro (3)\quant_system_pro> python "tools_s2\qs2_nightly_optimizer.py" `
+  --db "D:\quant_system_v2\data\market_data.db" `
+  --timeframes "5m,15m,30m,1h,2h,4h,1d" `
+  --days 180 `
+  --min-trades 1 `
+  --max-dd 10000 `
+  --symbols-file "results\symbols_binance_perp.txt" `
+  --out-json "deploy\qs2_live_best_params.json" `
+  --report "results\qs2_optimizer_report.json" 2>&1 | Tee-Object "logs\qs2_nightly_optimizer.run.log"
+[A6-SHIM] pandas.DataFrame.to_csv 宸插畨瑁呬慨璁㈤挬瀛愶紙浠呮嫤鎴?a6_strategy_scores*锛?
+鉂?鏂伴矞搴︽湭杈炬爣锛屽凡鐢熸垚鎶ュ憡锛?results\qs2_optimizer_report.json
+PS D:\quant_system_pro (3)\quant_system_pro> Get-Content "results\qs2_optimizer_report.json" -Encoding UTF8 | Select-Object -First 120
+{
+  "time": "2025-08-18 04:56:47 UTC",
+  "db": "D:\\quant_system_v2\\data\\market_data.db",
+  "fresh_ok": false,
+  "detail": [
+    {
+      "tf": "5m",
+      "ok": false,
+      "limit_min": 2,
+      "stale": [
+        {
+          "table": "BTCUSDT_5m",
+          "delay_min": 3781.8
+        },
+        {
+          "table": "ETHUSDT_5m",
+          "delay_min": 3781.8
+        },
+        {
+          "table": "UNIUSDT_5m",
+          "delay_min": 3781.8
+        },
+        {
+          "table": "1000BONKUSDT_5m",
+          "delay_min": 3781.8
+        },
+        {
+          "table": "1000000MOGUSDT_5m",
+          "delay_min": 3781.8
+        }
+      ]
+    },
+    {
+      "tf": "15m",
+      "ok": false,
+      "limit_min": 5,
+      "stale": [
+        {
+          "table": "ETHUSDT_15m",
+          "delay_min": 3791.8
+        },
+        {
+          "table": "UNIUSDT_15m",
+          "delay_min": 3791.8
+        },
+        {
+          "table": "BTCUSDT_15m",
+          "delay_min": 3791.8
+        },
+        {
+          "table": "1000000BOBUSDT_15m",
+          "delay_min": 3776.8
+        },
+        {
+          "table": "1000000MOGUSDT_15m",
+          "delay_min": 3776.8
+        }
+      ]
+    },
+    {
+      "tf": "30m",
+      "ok": false,
+      "limit_min": 10,
+      "stale": [
+        {
+          "table": "ETHUSDT_30m",
+          "delay_min": 3806.8
+        },
+        {
+          "table": "BTCUSDT_30m",
+          "delay_min": 3806.8
+        },
+        {
+          "table": "UNIUSDT_30m",
+          "delay_min": 3806.8
+        },
+        {
+          "table": "1000000BOBUSDT_30m",
+          "delay_min": 3776.8
+        },
+        {
+          "table": "1000CHEEMSUSDT_30m",
+          "delay_min": 3776.8
+        }
+      ]
+    },
+    {
+      "tf": "1h",
+      "ok": false,
+      "limit_min": 20,
+      "stale": [
+        {
+          "table": "BTCUSDT_1h",
+          "delay_min": 3896.8
+        },
+        {
+          "table": "ETHUSDT_1h",
+          "delay_min": 3896.8
+        },
+        {
+          "table": "UNIUSDT_1h",
+          "delay_min": 3896.8
+        },
+        {
+          "table": "1000000BOBUSDT_1h",
+          "delay_min": 3776.8
+        },
+        {
+          "table": "1000000MOGUSDT_1h",
+          "delay_min": 3776.8
+        }
+      ]
+    },
+    {
+      "tf": "2h",
+      "ok": false,
+      "limit_min": 30,
+      "stale": [
+        {
+          "table": "ETHUSDT_2h",
+PS D:\quant_system_pro (3)\quant_system_pro> python "tools_s2\qs2_nightly_optimizer.py" `
+  --db "D:\quant_system_v2\data\market_data.db" `
+  --timeframes "5m,15m,30m,1h,2h,4h,1d" `
+  --days 180 `
+  --min-trades 1 `
+  --max-dd 10000 `
+  --symbols-file "results\symbols_binance_perp.txt" `
+  --out-json "deploy\qs2_live_best_params.json" `
+  --report "results\qs2_optimizer_report.json" `
+  --force 2>&1 | Tee-Object "logs\qs2_nightly_optimizer.force.log"
+>> TerminatingError():“管道已被停止。”
+>> TerminatingError():“管道已被停止。”
+PS D:\quant_system_pro (3)\quant_system_pro> # 1) 看退出码（0=成功，2=新鲜度未达标，其它=异常）
+PS D:\quant_system_pro (3)\quant_system_pro> $LASTEXITCODE
+-1
+PS D:\quant_system_pro (3)\quant_system_pro> # 2) 产物是否生成？显示大小与前几行
+PS D:\quant_system_pro (3)\quant_system_pro> Get-Item .\deploy\qs2_live_best_params.json -ErrorAction SilentlyContinue | Select Name,Length,LastWriteTime
+PS D:\quant_system_pro (3)\quant_system_pro> Get-Content .\deploy\qs2_live_best_params.json -Encoding UTF8 | Select-Object -First 40
+Get-Content : 找不到路径“D:\quant_system_pro (3)\quant_system_pro\deploy\qs2_live_best_params.json”，因为该路径不存在。
+所在位置 行:1 字符: 1
++ Get-Content .\deploy\qs2_live_best_params.json -Encoding UTF8 | Selec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\quant_system...est_params.json:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : 找不到路径“D:\quant_system_pro
+(3)\quant_system_pro\deploy\qs2_live_best_params.json”，因为该路径不存在。
+所在位置 行:1 字符: 1
++ Get-Content .\deploy\qs2_live_best_params.json -Encoding UTF8 | Selec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\quant_system...est_params.json:String) [Get-Content], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS D:\quant_system_pro (3)\quant_system_pro> # 3) 查看 force 运行日志末尾 80 行（定位错误栈或成功标记）
+PS D:\quant_system_pro (3)\quant_system_pro> Get-Content .\logs\qs2_nightly_optimizer.force.log -Encoding UTF8 | Select-Object -Last 80
+[A6-SHIM] pandas.DataFrame.to_csv 宸插畨瑁呬慨璁㈤挬瀛愶紙浠呮嫤鎴?a6_strategy_scores*锛?
+PS D:\quant_system_pro (3)\quant_system_pro> python tools_s2\qs2_nightly_optimizer.py `
+  --db D:\quant_system_v2\data\market_data.db `
+  --timeframes "5m,15m,30m,1h,2h,4h,1d" `
+  --days 180 --min-trades 1 --max-dd 10000 `
+  --out-json deploy\qs2_live_best_params.json `
+  --report results\qs2_optimizer_report.json `
+  --force 2>&1 | Tee-Object logs\qs2_nightly_optimizer.force2.log
+>> TerminatingError():“管道已被停止。”
+>> TerminatingError():“管道已被停止。”
+PS D:\quant_system_pro (3)\quant_system_pro> # 双击你保存的：① 启动采集守护.bat
+PS D:\quant_system_pro (3)\quant_system_pro> # 或用命令直接起：

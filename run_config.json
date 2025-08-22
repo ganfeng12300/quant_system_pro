@@ -1,0 +1,13 @@
+{
+  "db": "D:\\quant_system_v2\\data\\market_data.db",
+  "symbols": [
+    "BTCUSDT"
+  ],
+  "timeframes": [
+    "30m"
+  ],
+  "days": 30,
+  "json": "D:\\quant_system_pro (3)\\quant_system_pro\\deploy\\live_best_params.json",
+  "seen_best_items": 1,
+  "ts": "2025-08-17 21:27:36"
+}

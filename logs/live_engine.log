@@ -1,0 +1,8 @@
+[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
+usage: execution_engine_binance_ws.py [-h] --db DB
+                                      [--symbols-file SYMBOLS_FILE]
+                                      [--mode {paper,real}] [--sl-pct SL_PCT]
+                                      [--tp-pct TP_PCT]
+                                      [--trailing-pct TRAILING_PCT]
+                                      [--ui-rows UI_ROWS]
+execution_engine_binance_ws.py: error: unrecognized arguments: --best-params deploy/live_best_params.json

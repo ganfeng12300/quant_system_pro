@@ -1,0 +1,9 @@
+[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
+C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\hyperopt\atpe.py:19: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[GPU] Torch 2.6.0+cu124 | CUDA 12.4 | Device NVIDIA GeForce RTX 3060 | available=True
+[GPU] XGBoost 1.7.6 (gpu_hist supported)
+[GPU] LightGBM available (GPU depends on build)
+usage: backtest_pro.py [-h] [--db DB] [--days DAYS] [--topk TOPK]
+                       [--outdir OUTDIR] [--symbols SYMBOLS [SYMBOLS ...]]
+backtest_pro.py: error: unrecognized arguments: --only-strategy A2 --spa on --spa-alpha 0.05 --pbo on --pbo-bins 10 --impact-recheck on --tf-consistency on --tf-consistency-w 0.2

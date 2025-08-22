@@ -1,0 +1,127 @@
+# -*- coding: utf-8 -*-
+import numpy as np, pandas as pd
+
+def _rsi(c, n=14):
+    chg=c.diff().fillna(0); gain=(chg.where(chg>0,0)).rolling(_toi(n)).mean(); loss=(-chg.where(chg<0,0)).rolling(_toi(n)).mean()
+    rs=gain/(loss+1e-12); return 100-100/(1+rs)
+
+def strat_bbands(df, period=20, n=2.0):
+    c=pd.to_numeric(df["close"], errors="coerce")
+    ma=c.rolling(_toi(period), min_periods=_toi(period)).mean()
+    std=c.rolling(_toi(period), min_periods=_toi(period)).std(ddof=0)
+    lower=ma-n*std
+    pos=(c<lower).astype(float); pos=pos.where(c<=ma,0.0)
+    return pos
+
+def strat_ma_cross(df, fast=10, slow=50):
+    c=pd.to_numeric(df["close"], errors="coerce")
+    s1=c.rolling(_toi(fast), min_periods=_toi(fast)).mean()
+    s2=c.rolling(_toi(slow), min_periods=_toi(slow)).mean()
+    return (s1>s2).astype(float)
+
+def strat_rsi_rev(df, period=14, low=30, high=70):
+    c=pd.to_numeric(df["close"], errors="coerce")
+    rsi=_rsi(c,period)
+    pos=(rsi<low).astype(float); pos=pos.where(rsi<high,0.0)
+    return pos
+
+def strat_atr_break(df, atr_n=14, k=2.0):
+    h=pd.to_numeric(df["high"]); l=pd.to_numeric(df["low"]); c=pd.to_numeric(df["close"])
+    tr=(h-l).combine((h-c.shift()).abs(), max).combine((l-c.shift()).abs(), max)
+    atr=tr.rolling(_toi(atr_n), min_periods=_toi(atr_n)).mean()
+    entry=c.shift(1)+k*atr.shift(1)
+    return (c>entry).astype(float)
+
+# 机器学习（简化，样本窗内训练）
+def _ml_feats(c, lookback):
+    X=[]; y=[]
+    for i in range(lookback, len(c)-1):
+        feat=(c.iloc[i-lookback:i]/c.iloc[i-1]-1.0).values
+        X.append(feat); y.append(1 if c.iloc[i+1]>c.iloc[i] else 0)
+    return np.array(X), np.array(y), len(c)-1
+
+def strat_lgbm(df, lookback=20, n_estimators=200, num_leaves=31, lr=0.05):
+    try:
+        import lightgbm as lgb
+    except Exception:
+        return pd.Series(0.0, index=df.index)
+    c=pd.to_numeric(df["close"]).astype(float)
+    X,y,off=_ml_feats(c, lookback)
+    if len(X)<50: return pd.Series(0.0, index=df.index)
+    tr=int(len(X)*0.8)
+    gb=lgb.LGBMClassifier(n_estimators=n_estimators, num_leaves=num_leaves, learning_rate=lr)
+    gb.fit(X[:tr], y[:tr]); proba=gb.predict_proba(X)[:,1]
+    sig=pd.Series(0.0, index=df.index); sig.iloc[lookback:lookback+len(proba)]=(proba>0.5).astype(float)
+    return sig
+
+def strat_rf(df, lookback=20, n_estimators=300, max_depth=5):
+    try:
+        from sklearn.ensemble import RandomForestClassifier
+    except Exception:
+        return pd.Series(0.0, index=df.index)
+    c=pd.to_numeric(df["close"]).astype(float)
+    X,y,off=_ml_feats(c, lookback)
+    if len(X)<50: return pd.Series(0.0, index=df.index)
+    tr=int(len(X)*0.8)
+    rf=RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, n_jobs=-1)
+    rf.fit(X[:tr], y[:tr]); proba=rf.predict_proba(X)[:,1]
+    sig=pd.Series(0.0, index=df.index); sig.iloc[lookback:lookback+len(proba)]=(proba>0.5).astype(float)
+    return sig
+
+def strat_lstm(df, lookback=30, hidden=32, epochs=2):
+    try:
+        import torch, torch.nn as nn
+    except Exception:
+        return pd.Series(0.0, index=df.index)
+    device="cuda" if hasattr(torch,"cuda") and torch.cuda.is_available() else "cpu"
+    c=pd.to_numeric(df["close"]).astype(float)
+    X=[]; y=[]
+    for i in range(lookback, len(c)-1):
+        X.append((c.iloc[i-lookback:i].values/c.iloc[i-1])-1.0)
+        y.append(1 if c.iloc[i+1]>c.iloc[i] else 0)
+    if len(X)<200: return pd.Series(0.0, index=df.index)
+    X=torch.tensor(np.array(X), dtype=torch.float32).unsqueeze(-1).to(device)
+    y=torch.tensor(np.array(y), dtype=torch.long).to(device)
+    class Net(nn.Module):
+        def __init__(self,h): super().__init__(); self.lstm=nn.LSTM(1,h,batch_first=True); self.fc=nn.Linear(h,2)
+        def forward(self,x): o,_=self.lstm(x); return self.fc(o[:,-1,:])
+    m=Net(hidden).to(device); opt=torch.optim.Adam(m.parameters(), lr=1e-3); loss=nn.CrossEntropyLoss()
+    bs=256
+    for ep in range(epochs):
+      for i in range(0,len(X),bs):
+        xb=X[i:i+bs]; yb=y[i:i+bs]; opt.zero_grad(); out=m(xb); l=loss(out,yb); l.backward(); opt.step()
+    m.eval(); import torch.nn.functional as F
+    with torch.no_grad(): proba=F.softmax(m(X),dim=1)[:,1].cpu().numpy()
+    sig=pd.Series(0.0,index=df.index); sig.iloc[lookback:lookback+len(proba)]=(proba>0.5).astype(float)
+    return sig
+
+def strat_reversal_plus_atr(df, rsi_n=14, rsi_low=25, atr_n=14, k=1.5):
+    c=pd.to_numeric(df["close"]); h=pd.to_numeric(df["high"]); l=pd.to_numeric(df["low"])
+    rsi=_rsi(c,rsi_n)
+    tr=(h-l).combine((h-c.shift()).abs(),max).combine((l-c.shift()).abs(),max)
+    atr=tr.rolling(_toi(atr_n), min_periods=_toi(atr_n)).mean()
+    entry=c.shift(1)-k*atr.shift(1)
+    return ((rsi<rsi_low) & (c<entry)).astype(float)
+
+# 统一入口
+STRATS = {
+    "A1": ("布林带", strat_bbands),
+    "A2": ("均线交叉", strat_ma_cross),
+    "A3": ("RSI反转", strat_rsi_rev),
+    "A4": ("ATR突破", strat_atr_break),
+    "A5": ("LightGBM", strat_lgbm),
+    "A6": ("随机森林", strat_rf),
+    "A7": ("LSTM方向", strat_lstm),
+    "A8": ("反转+ATR", strat_reversal_plus_atr),
+}
+
+
+# --- auto injected helper: ensure int for window args ---
+def _toi(x):
+    try:
+        return int(x)
+    except Exception:
+        try:
+            return int(float(x))
+        except Exception:
+            return int(round(float(x)))

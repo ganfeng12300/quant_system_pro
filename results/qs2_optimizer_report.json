@@ -1,0 +1,196 @@
+{
+  "time": "2025-08-18 04:59:07 UTC",
+  "db": "D:\\quant_system_v2\\data\\market_data.db",
+  "fresh_ok": false,
+  "detail": [
+    {
+      "tf": "5m",
+      "ok": false,
+      "limit_min": 2,
+      "stale": [
+        {
+          "table": "BTCUSDT_5m",
+          "delay_min": 3784.1
+        },
+        {
+          "table": "ETHUSDT_5m",
+          "delay_min": 3784.1
+        },
+        {
+          "table": "UNIUSDT_5m",
+          "delay_min": 3784.1
+        },
+        {
+          "table": "1000BONKUSDT_5m",
+          "delay_min": 3784.1
+        },
+        {
+          "table": "1000000MOGUSDT_5m",
+          "delay_min": 3784.1
+        }
+      ]
+    },
+    {
+      "tf": "15m",
+      "ok": false,
+      "limit_min": 5,
+      "stale": [
+        {
+          "table": "ETHUSDT_15m",
+          "delay_min": 3794.1
+        },
+        {
+          "table": "UNIUSDT_15m",
+          "delay_min": 3794.1
+        },
+        {
+          "table": "BTCUSDT_15m",
+          "delay_min": 3794.1
+        },
+        {
+          "table": "1000000BOBUSDT_15m",
+          "delay_min": 3779.1
+        },
+        {
+          "table": "1000000MOGUSDT_15m",
+          "delay_min": 3779.1
+        }
+      ]
+    },
+    {
+      "tf": "30m",
+      "ok": false,
+      "limit_min": 10,
+      "stale": [
+        {
+          "table": "ETHUSDT_30m",
+          "delay_min": 3809.1
+        },
+        {
+          "table": "BTCUSDT_30m",
+          "delay_min": 3809.1
+        },
+        {
+          "table": "UNIUSDT_30m",
+          "delay_min": 3809.1
+        },
+        {
+          "table": "1000000BOBUSDT_30m",
+          "delay_min": 3779.1
+        },
+        {
+          "table": "1000CHEEMSUSDT_30m",
+          "delay_min": 3779.1
+        }
+      ]
+    },
+    {
+      "tf": "1h",
+      "ok": false,
+      "limit_min": 20,
+      "stale": [
+        {
+          "table": "BTCUSDT_1h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "ETHUSDT_1h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "UNIUSDT_1h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "1000000BOBUSDT_1h",
+          "delay_min": 3779.1
+        },
+        {
+          "table": "1000000MOGUSDT_1h",
+          "delay_min": 3779.1
+        }
+      ]
+    },
+    {
+      "tf": "2h",
+      "ok": false,
+      "limit_min": 30,
+      "stale": [
+        {
+          "table": "ETHUSDT_2h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "BTCUSDT_2h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "UNIUSDT_2h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "1000000BOBUSDT_2h",
+          "delay_min": 3779.1
+        },
+        {
+          "table": "1000CATUSDT_2h",
+          "delay_min": 3899.1
+        }
+      ]
+    },
+    {
+      "tf": "4h",
+      "ok": false,
+      "limit_min": 45,
+      "stale": [
+        {
+          "table": "ETHUSDT_4h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "UNIUSDT_4h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "BTCUSDT_4h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "1000000BOBUSDT_4h",
+          "delay_min": 3899.1
+        },
+        {
+          "table": "1000000MOGUSDT_4h",
+          "delay_min": 3899.1
+        }
+      ]
+    },
+    {
+      "tf": "1d",
+      "ok": false,
+      "limit_min": 120,
+      "stale": [
+        {
+          "table": "BTCUSDT_1d",
+          "delay_min": 6059.1
+        },
+        {
+          "table": "ETHUSDT_1d",
+          "delay_min": 6059.1
+        },
+        {
+          "table": "UNIUSDT_1d",
+          "delay_min": 6059.1
+        },
+        {
+          "table": "1000000BOBUSDT_1d",
+          "delay_min": 7499.1
+        },
+        {
+          "table": "1000CHEEMSUSDT_1d",
+          "delay_min": 7499.1
+        }
+      ]
+    }
+  ]
+}

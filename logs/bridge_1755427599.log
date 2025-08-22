@@ -1,0 +1,10 @@
+[A6-SHIM] pandas.DataFrame.to_csv Ѱװ޶ӣ a6_strategy_scores*
+[BEST] BTCUSDT 1h A5_reversal {'look': 10, 'z': 2} ret=1.51% trades=12 score=0.0084 dd=-0.00
+Traceback (most recent call last):
+  File "D:\quant_system_pro (3)\quant_system_pro\optimizer\a1a8_optimizer_and_deploy.py", line 225, in <module>
+    main()
+  File "D:\quant_system_pro (3)\quant_system_pro\optimizer\a1a8_optimizer_and_deploy.py", line 208, in main
+    save_best_params_to_db(args.db, best_items)
+  File "D:\quant_system_pro (3)\quant_system_pro\utils\param_loader.py", line 37, in save_best_params_to_db
+    cur.execute(f"""INSERT INTO {BEST_TABLE}(symbol,timeframe,strategy,params_json,metric_return,metric_trades,updated_at)
+sqlite3.OperationalError: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint

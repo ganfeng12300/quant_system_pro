@@ -1,0 +1,13 @@
+13:55:02 | === 一键启动流程开始 ===
+13:55:09 | [OK] 已生成快照: D:\quant_system_v2\data\market_data_snapshot.db
+13:55:09 | [START] 采集: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u tools/rt_updater_with_banner.py --db D:\quant_system_v2\data\market_data.db --backfill-days 365 --max-workers 8 --interval 30
+13:55:09 | [START] 回测: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u backtest/backtest_pro.py --db D:\quant_system_v2\data\market_data_snapshot.db --days 180 --topk 40 --outdir results
+13:55:09 | [RUN] 选币: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u tools/qs2_pick_live_syms.py --scores results/a6_strategy_scores_latest.csv --top 20 --out deploy/qs2_live_symbols.txt
+13:55:10 | [ERR] 选币 失败 rc=2
+[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
+[FATAL] 未找到打分文件 a6_strategy_scores*.csv（尝试 --scores 指定或先完成一次回测输出）。
+      已尝试：results/a6_strategy_scores_latest.csv 以及 D:\quant_system_pro (3)\quant_system_pro\results
+
+
+13:55:10 | [START] 实盘: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe -u live_trading/execution_engine_binance_ws.py --db D:\quant_system_v2\data\market_data.db --mode paper --best-params deploy/live_best_params.json --ui-rows 30
+13:55:10 | === 全部流程已拉起，请在 logs/ 下查看详细日志 ===
