@@ -1,7 +1,0 @@
-[A6-SHIM] pandas.DataFrame.to_csv Ѱװ޶ӣ a6_strategy_scores*
-[SKIP] 1000000BOBUSDT_1h ݲ
-[SKIP] 1000000BOBUSDT_4h ݲ
-[BEST] 1000000MOGUSDT 1h A1_ma_cross {'fast': 35, 'slow': 40} ret=25.24% trades=5 score=0.2452 dd=-0.00
-[BEST] 1000000MOGUSDT 4h A3_rsi {'n': 12, 'low': 30, 'high': 70} ret=76.83% trades=17 score=0.7557 dd=-0.00
-[BEST] 1000BONKUSDT 1h A1_ma_cross {'fast': 25, 'slow': 40} ret=90.17% trades=28 score=0.8964 dd=-0.00
-[BEST] 1000BONKUSDT 4h A1_ma_cross {'fast': 25, 'slow': 40} ret=104.27% trades=7 score=1.0375 dd=-0.00

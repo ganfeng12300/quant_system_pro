@@ -1,4 +1,0 @@
-[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
-[INFO] 使用策略: A1_ma_cross 参数: {} 交易所: bitget 符号: BTC/USDT
-[TRADE] BUY @tick None ts=None signal=1
-^C

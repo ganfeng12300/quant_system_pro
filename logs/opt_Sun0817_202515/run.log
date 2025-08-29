@@ -1,8 +1,0 @@
-[INFO] ROOT="D:\quant_system_pro (3)\quant_system_pro" 
-[INFO] DB="D:\quant_system_v2\data\market_data.db"  
-[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
-  File "D:\quant_system_pro (3)\quant_system_pro\logs\opt_Sun0817_202515\check_env.py", line 3
-    
-    ^
-SyntaxError: unexpected EOF while parsing
-[FATAL] 鐜/鏁版嵁搴撳紓甯革紝璇﹁鏃ュ織锛歭ogs\opt_Sun0817_202515\run.log 

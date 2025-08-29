@@ -1,9 +1,0 @@
-[INFO] DB= D:\quant_system_v2\data\market_data.db
-[WARN] best_params 为空：请先跑寻优/或检查 JSON 是否生成。
-[STEP] 启动 dry-run： C:\Users\Administrator\AppData\Local\Programs\Python\Python39\python.exe D:\quant_system_pro (3)\quant_system_pro\live_trading\live_trader_pro.py --db D:\quant_system_v2\data\market_data.db --exchange binance BTCUSDT --tf 1h --strategy auto
-[A6-SHIM] pandas.DataFrame.to_csv 已安装修订钩子（仅拦截 a6_strategy_scores*）
-[LIVE-STDERR] usage: live_trader_pro.py [-h] --db DB [--exchange {binance,bitget}] --symbol
-                          SYMBOL --tf TF [--strategy STRATEGY] [--fee FEE]
-                          [--slip SLIP] [--lev LEV] [--poll POLL] [--live]
-live_trader_pro.py: error: the following arguments are required: --symbol
-[DONE] 验证完成。日志： D:\quant_system_pro (3)\quant_system_pro\logs/livecheck_20250817_160355\run.log
